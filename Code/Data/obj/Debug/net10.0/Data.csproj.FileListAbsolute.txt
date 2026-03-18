@@ -1,0 +1,16 @@
+/Users/maksimp/Documents/Blasor/Code/Data/bin/Debug/net10.0/Abc.Data.deps.json
+/Users/maksimp/Documents/Blasor/Code/Data/bin/Debug/net10.0/Abc.Data.dll
+/Users/maksimp/Documents/Blasor/Code/Data/bin/Debug/net10.0/Abc.Data.pdb
+/Users/maksimp/Documents/Blasor/Code/Data/bin/Debug/net10.0/Abc.Aids.dll
+/Users/maksimp/Documents/Blasor/Code/Data/bin/Debug/net10.0/Abc.Aids.pdb
+/Users/maksimp/Documents/Blasor/Code/Data/obj/Debug/net10.0/Data.csproj.AssemblyReference.cache
+/Users/maksimp/Documents/Blasor/Code/Data/obj/Debug/net10.0/Data.GeneratedMSBuildEditorConfig.editorconfig
+/Users/maksimp/Documents/Blasor/Code/Data/obj/Debug/net10.0/Data.AssemblyInfoInputs.cache
+/Users/maksimp/Documents/Blasor/Code/Data/obj/Debug/net10.0/Data.AssemblyInfo.cs
+/Users/maksimp/Documents/Blasor/Code/Data/obj/Debug/net10.0/Data.csproj.CoreCompileInputs.cache
+/Users/maksimp/Documents/Blasor/Code/Data/obj/Debug/net10.0/Data.sourcelink.json
+/Users/maksimp/Documents/Blasor/Code/Data/obj/Debug/net10.0/Data.csproj.Up2Date
+/Users/maksimp/Documents/Blasor/Code/Data/obj/Debug/net10.0/Abc.Data.dll
+/Users/maksimp/Documents/Blasor/Code/Data/obj/Debug/net10.0/refint/Abc.Data.dll
+/Users/maksimp/Documents/Blasor/Code/Data/obj/Debug/net10.0/Abc.Data.pdb
+/Users/maksimp/Documents/Blasor/Code/Data/obj/Debug/net10.0/ref/Abc.Data.dll
