@@ -29,12 +29,6 @@ namespace Abc.Soft.Web.Migrations
                     b.Property<string>("Details")
                         .HasColumnType("TEXT");
 
-                    b.Property<bool>("IsIsoCountry")
-                        .HasColumnType("INTEGER");
-
-                    b.Property<bool>("IsLoyaltyProgram")
-                        .HasColumnType("INTEGER");
-
                     b.Property<string>("IsoCode")
                         .HasColumnType("TEXT");
 
@@ -68,20 +62,34 @@ namespace Abc.Soft.Web.Migrations
 
             modelBuilder.Entity("Abc.Data.Movie", b =>
                 {
-                    b.Property<int>("Id")
+                    b.Property<Guid>("Id")
                         .ValueGeneratedOnAdd()
-                        .HasColumnType("INTEGER");
+                        .HasColumnType("TEXT");
+
+                    b.Property<string>("Code")
+                        .HasColumnType("TEXT");
+
+                    b.Property<string>("Details")
+                        .HasColumnType("TEXT");
 
                     b.Property<string>("Genre")
+                        .HasColumnType("TEXT");
+
+                    b.Property<string>("Name")
                         .HasColumnType("TEXT");
 
                     b.Property<decimal>("Price")
                         .HasColumnType("decimal(18, 2)");
 
-                    b.Property<DateOnly>("ReleaseDate")
+                    b.Property<byte[]>("Timestamp")
+                        .IsConcurrencyToken()
+                        .ValueGeneratedOnAddOrUpdate()
+                        .HasColumnType("BLOB");
+
+                    b.Property<DateTime?>("ValidFrom")
                         .HasColumnType("TEXT");
 
-                    b.Property<string>("Title")
+                    b.Property<DateTime?>("ValidTo")
                         .HasColumnType("TEXT");
 
                     b.HasKey("Id");

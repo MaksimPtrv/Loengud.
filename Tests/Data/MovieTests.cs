@@ -7,8 +7,8 @@ namespace Tests.Data;
 public sealed class MovieTests : BaseTests<Movie>
 {
     [TestMethod] public void IdTest() => isProperty<int>(nameof(Movie.Id));
-    [TestMethod] public void TitleTest() => isProperty<string>(nameof(Movie.Title));
-    [TestMethod] public void ReleaseDateTest() => isProperty<DateOnly>(nameof(Movie.ReleaseDate));
+    [TestMethod] public void TitleTest() => isProperty<string>(nameof(Movie.Name));
+    [TestMethod] public void ReleaseDateTest() => isProperty<DateOnly>(nameof(Movie.ValidFrom));
     [TestMethod] public void GenreTest() => isProperty<string>(nameof(Movie.Genre));
     [TestMethod] public void PriceTest() => isProperty<decimal>(nameof(Movie.Price));
 }

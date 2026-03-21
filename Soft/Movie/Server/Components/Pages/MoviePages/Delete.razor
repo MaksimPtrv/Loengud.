@@ -33,7 +33,7 @@
 
 @code {
     private Movie movie;
-    [SupplyParameterFromQuery] private int Id { get; set; }
+    [SupplyParameterFromQuery] private Guid Id { get; set; }
     protected override async Task OnInitializedAsync() {
         using var context = DbFactory.CreateDbContext();
         movie = await context.Movies.FirstOrDefaultAsync(m => m.Id == Id);

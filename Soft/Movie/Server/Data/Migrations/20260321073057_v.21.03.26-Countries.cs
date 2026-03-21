@@ -22,8 +22,6 @@ namespace Abc.Soft.Web.Migrations
                     OfficialName = table.Column<string>(type: "TEXT", nullable: true),
                     NativeName = table.Column<string>(type: "TEXT", nullable: true),
                     NumericCode = table.Column<string>(type: "TEXT", nullable: true),
-                    //IsIsoCountry = table.Column<bool>(type: "INTEGER", nullable: false),
-                    //IsLoyaltyProgram = table.Column<bool>(type: "INTEGER", nullable: false),
                     IsoCode = table.Column<string>(type: "TEXT", nullable: true),
                     ValidFrom = table.Column<DateTime>(type: "TEXT", nullable: true),
                     ValidTo = table.Column<DateTime>(type: "TEXT", nullable: true),

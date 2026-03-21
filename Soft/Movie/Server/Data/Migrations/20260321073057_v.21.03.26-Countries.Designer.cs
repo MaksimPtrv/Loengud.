@@ -32,12 +32,6 @@ namespace Abc.Soft.Web.Migrations
                     b.Property<string>("Details")
                         .HasColumnType("TEXT");
 
-                    b.Property<bool>("IsIsoCountry")
-                        .HasColumnType("INTEGER");
-
-                    b.Property<bool>("IsLoyaltyProgram")
-                        .HasColumnType("INTEGER");
-
                     b.Property<string>("IsoCode")
                         .HasColumnType("TEXT");
 
