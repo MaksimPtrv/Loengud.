@@ -24,4 +24,8 @@
     </PackageReference>
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="Components/Pages/CountryPages/" />
+  </ItemGroup>
+
 </Project>
