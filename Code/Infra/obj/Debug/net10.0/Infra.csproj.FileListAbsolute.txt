@@ -4,9 +4,13 @@
 /Users/maksimp/Documents/Blasor/Code/Infra/bin/Debug/net10.0/Abc.Aids.dll
 /Users/maksimp/Documents/Blasor/Code/Infra/bin/Debug/net10.0/Abc.Data.dll
 /Users/maksimp/Documents/Blasor/Code/Infra/bin/Debug/net10.0/Abc.Domain.dll
+/Users/maksimp/Documents/Blasor/Code/Infra/bin/Debug/net10.0/Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+/Users/maksimp/Documents/Blasor/Code/Infra/bin/Debug/net10.0/Microsoft.EntityFrameworkCore.dll
 /Users/maksimp/Documents/Blasor/Code/Infra/bin/Debug/net10.0/Abc.Domain.pdb
 /Users/maksimp/Documents/Blasor/Code/Infra/bin/Debug/net10.0/Abc.Aids.pdb
 /Users/maksimp/Documents/Blasor/Code/Infra/bin/Debug/net10.0/Abc.Data.pdb
+/Users/maksimp/Documents/Blasor/Code/Infra/bin/Debug/net10.0/Microsoft.AspNetCore.Identity.EntityFrameworkCore.xml
+/Users/maksimp/Documents/Blasor/Code/Infra/bin/Debug/net10.0/Microsoft.EntityFrameworkCore.xml
 /Users/maksimp/Documents/Blasor/Code/Infra/obj/Debug/net10.0/Infra.csproj.AssemblyReference.cache
 /Users/maksimp/Documents/Blasor/Code/Infra/obj/Debug/net10.0/Infra.GeneratedMSBuildEditorConfig.editorconfig
 /Users/maksimp/Documents/Blasor/Code/Infra/obj/Debug/net10.0/Infra.AssemblyInfoInputs.cache

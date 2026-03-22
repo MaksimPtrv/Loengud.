@@ -1,8 +1,9 @@
 @page "/movies/details"
 @attribute [ExcludeFromInteractiveRouting]
-@using Abc.Soft.Web.Data
 @using Microsoft.EntityFrameworkCore
 @using Abc.Data
+@using Abc.Infra
+
 @inject IDbContextFactory<ApplicationDbContext> DbFactory
 @inject NavigationManager NavigationManager
 

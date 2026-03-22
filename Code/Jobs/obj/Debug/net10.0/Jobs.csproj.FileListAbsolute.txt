@@ -5,10 +5,14 @@
 /Users/maksimp/Documents/Blasor/Code/Jobs/bin/Debug/net10.0/Abc.Data.dll
 /Users/maksimp/Documents/Blasor/Code/Jobs/bin/Debug/net10.0/Abc.Domain.dll
 /Users/maksimp/Documents/Blasor/Code/Jobs/bin/Debug/net10.0/Abc.Infra.dll
+/Users/maksimp/Documents/Blasor/Code/Jobs/bin/Debug/net10.0/Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+/Users/maksimp/Documents/Blasor/Code/Jobs/bin/Debug/net10.0/Microsoft.EntityFrameworkCore.dll
 /Users/maksimp/Documents/Blasor/Code/Jobs/bin/Debug/net10.0/Abc.Infra.pdb
 /Users/maksimp/Documents/Blasor/Code/Jobs/bin/Debug/net10.0/Abc.Aids.pdb
 /Users/maksimp/Documents/Blasor/Code/Jobs/bin/Debug/net10.0/Abc.Data.pdb
 /Users/maksimp/Documents/Blasor/Code/Jobs/bin/Debug/net10.0/Abc.Domain.pdb
+/Users/maksimp/Documents/Blasor/Code/Jobs/bin/Debug/net10.0/Microsoft.AspNetCore.Identity.EntityFrameworkCore.xml
+/Users/maksimp/Documents/Blasor/Code/Jobs/bin/Debug/net10.0/Microsoft.EntityFrameworkCore.xml
 /Users/maksimp/Documents/Blasor/Code/Jobs/obj/Debug/net10.0/Jobs.csproj.AssemblyReference.cache
 /Users/maksimp/Documents/Blasor/Code/Jobs/obj/Debug/net10.0/Jobs.GeneratedMSBuildEditorConfig.editorconfig
 /Users/maksimp/Documents/Blasor/Code/Jobs/obj/Debug/net10.0/Jobs.AssemblyInfoInputs.cache

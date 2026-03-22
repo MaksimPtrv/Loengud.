@@ -49,7 +49,10 @@
         },
         "runtime": {
           "bin/placeholder/Abc.Infra.dll": {}
-        }
+        },
+        "frameworkReferences": [
+          "Microsoft.AspNetCore.App"
+        ]
       }
     }
   },

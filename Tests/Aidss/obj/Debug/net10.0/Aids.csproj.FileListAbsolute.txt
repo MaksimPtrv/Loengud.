@@ -167,7 +167,9 @@
 /Users/maksimp/Documents/Blasor/Tests/Aidss/bin/Debug/net10.0/zh-Hans/MSTest.TestFramework.resources.dll
 /Users/maksimp/Documents/Blasor/Tests/Aidss/bin/Debug/net10.0/zh-Hant/MSTest.TestFramework.resources.dll
 /Users/maksimp/Documents/Blasor/Tests/Aidss/bin/Debug/net10.0/Abc.Aids.dll
+/Users/maksimp/Documents/Blasor/Tests/Aidss/bin/Debug/net10.0/Abc.Data.dll
 /Users/maksimp/Documents/Blasor/Tests/Aidss/bin/Debug/net10.0/MSTest.TestFramework.Extensions.dll
+/Users/maksimp/Documents/Blasor/Tests/Aidss/bin/Debug/net10.0/Abc.Data.pdb
 /Users/maksimp/Documents/Blasor/Tests/Aidss/bin/Debug/net10.0/Abc.Aids.pdb
 /Users/maksimp/Documents/Blasor/Tests/Aidss/bin/Debug/net10.0/MSTest.TestFramework.Extensions.xml
 /Users/maksimp/Documents/Blasor/Tests/Aidss/obj/Debug/net10.0/Aids.csproj.AssemblyReference.cache

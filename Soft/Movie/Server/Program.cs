@@ -1,10 +1,10 @@
+using Abc.Infra;
 using Microsoft.AspNetCore.Components.Authorization;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 using Abc.Soft.Web.Client.Pages;
 using Abc.Soft.Web.Components;
 using Abc.Soft.Web.Components.Account;
-using Abc.Soft.Web.Data;
 
 var builder = WebApplication.CreateBuilder(args);
 

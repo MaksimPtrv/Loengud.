@@ -1,9 +1,9 @@
 using System.Security.Claims;
+using Abc.Infra;
 using Microsoft.AspNetCore.Components.Authorization;
 using Microsoft.AspNetCore.Components.Server;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.Extensions.Options;
-using Abc.Soft.Web.Data;
 
 namespace Abc.Soft.Web.Components.Account;
 
