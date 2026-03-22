@@ -13,7 +13,7 @@
   <ItemGroup>
     <SupportedPlatform Include="browser" />
     <PackageReference Include="Microsoft.AspNetCore.Components.Web" Version="10. *" />
-    <ProjectReference Include="../Jobs/Jobs.csproj" />
+    <ProjectReference Include="../Jobs/Jobs.csproj" PrivateAssets="all" />
   </ItemGroup>
 
 </Project>

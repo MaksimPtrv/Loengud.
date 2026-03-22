@@ -1071,7 +1071,7 @@
           "warn": true,
           "frameworkReferences": {
             "Microsoft.AspNetCore.App": {
-              "privateAssets": "none"
+              "privateAssets": "all"
             },
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
@@ -1857,7 +1857,8 @@
             "targetAlias": "net10.0",
             "projectReferences": {
               "/Users/maksimp/Documents/Blasor/Code/Jobs/Jobs.csproj": {
-                "projectPath": "/Users/maksimp/Documents/Blasor/Code/Jobs/Jobs.csproj"
+                "projectPath": "/Users/maksimp/Documents/Blasor/Code/Jobs/Jobs.csproj",
+                "privateAssets": "all"
               }
             }
           }
@@ -2582,6 +2583,18 @@
           "net10.0": {
             "targetAlias": "net10.0",
             "projectReferences": {
+              "/Users/maksimp/Documents/Blasor/Code/Data/Data.csproj": {
+                "projectPath": "/Users/maksimp/Documents/Blasor/Code/Data/Data.csproj"
+              },
+              "/Users/maksimp/Documents/Blasor/Code/Domain/Domain.csproj": {
+                "projectPath": "/Users/maksimp/Documents/Blasor/Code/Domain/Domain.csproj"
+              },
+              "/Users/maksimp/Documents/Blasor/Code/Infra/Infra.csproj": {
+                "projectPath": "/Users/maksimp/Documents/Blasor/Code/Infra/Infra.csproj"
+              },
+              "/Users/maksimp/Documents/Blasor/Code/Shared/Shared.csproj": {
+                "projectPath": "/Users/maksimp/Documents/Blasor/Code/Shared/Shared.csproj"
+              },
               "/Users/maksimp/Documents/Blasor/Soft/Movie/Client/Movie.Client.csproj": {
                 "projectPath": "/Users/maksimp/Documents/Blasor/Soft/Movie/Client/Movie.Client.csproj"
               }

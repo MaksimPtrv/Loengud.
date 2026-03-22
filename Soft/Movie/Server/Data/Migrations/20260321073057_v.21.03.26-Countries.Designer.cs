@@ -3,6 +3,7 @@ using System;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Migrations;
+using Abc.Infra;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 
 #nullable disable

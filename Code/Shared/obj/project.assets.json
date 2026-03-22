@@ -384,10 +384,7 @@
         },
         "runtime": {
           "bin/placeholder/Abc.Infra.dll": {}
-        },
-        "frameworkReferences": [
-          "Microsoft.AspNetCore.App"
-        ]
+        }
       },
       "Abc.Jobs/1.0.0": {
         "type": "project",
@@ -986,7 +983,8 @@
           "targetAlias": "net10.0",
           "projectReferences": {
             "/Users/maksimp/Documents/Blasor/Code/Jobs/Jobs.csproj": {
-              "projectPath": "/Users/maksimp/Documents/Blasor/Code/Jobs/Jobs.csproj"
+              "projectPath": "/Users/maksimp/Documents/Blasor/Code/Jobs/Jobs.csproj",
+              "privateAssets": "all"
             }
           }
         }

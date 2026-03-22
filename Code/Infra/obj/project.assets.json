@@ -122,7 +122,7 @@
         "warn": true,
         "frameworkReferences": {
           "Microsoft.AspNetCore.App": {
-            "privateAssets": "none"
+            "privateAssets": "all"
           },
           "Microsoft.NETCore.App": {
             "privateAssets": "all"
