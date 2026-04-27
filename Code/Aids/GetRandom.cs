@@ -66,7 +66,7 @@ public static class GetRandom
         return new DateTime(ticks);
     }
     public static bool Bool() => r.Next(2) == 0;
-    public static char Char(char min = char.MinValue, char max = char.MaxValue) => (char) UInt16(min, max);
+    public static char Char(char min = char.MinValue, char max = char.MaxValue) => (char)Int32(min, max);
     public static string String(byte minLength = byte.MinValue, byte maxLength = (byte) sbyte.MaxValue) {
         var len = UInt8(minLength, maxLength);
         var s = new char[len];
