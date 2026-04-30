@@ -7,8 +7,11 @@
 @inject ICountriesRepo repo
 @inject NavigationManager NavigationManager
 
-<MyDeletePage PageTitleText="Delete Country" EntityTitle="Country" Entity="country" BasePath="/countries" OnValidSubmit="deleteCountry" />
-
+<MyDeletePage PageTitleText="Delete Country" EntityTitle="Country" Entity="country" BasePath="/countries" OnValidSubmit="deleteCountry">
+    <MyPropertyViewer Label="Name" Value="@country.Name" />
+    <MyPropertyViewer Label="Code" Value="@country.Code" />
+    @*<MyEntityViewer Entity="country" />*@
+</MyDeletePage>
 @code {
     private Country country;
 

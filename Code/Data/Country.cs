@@ -8,4 +8,5 @@ public sealed class Country : NamedEntity
     public string NativeName { get; set; } = "";
     public string NumericCode { get; set; } = "";
     public string IsoCode { get; set; } = "";
+    public IEnumerable<CountryCurrency> Currencies { get; set; } = [];
 }
