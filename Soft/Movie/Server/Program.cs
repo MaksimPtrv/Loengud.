@@ -47,6 +47,11 @@ builder.Services.AddIdentityCore<ApplicationUser>(options =>
 
 builder.Services.AddSingleton<IEmailSender<ApplicationUser>, IdentityNoOpEmailSender>();
 
+// Add repository services
+builder.Services.AddScoped<IMoviesRepo, MoviesRepos>();
+builder.Services.AddScoped<ICountriesRepo, CountriesRepos>();
+builder.Services.AddScoped<ICurrenciesRepo, CurrenciesRepos>();
+
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.
