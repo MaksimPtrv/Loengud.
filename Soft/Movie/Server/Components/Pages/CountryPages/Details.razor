@@ -4,28 +4,15 @@
 @using Abc.Data
 @using Abc.Infra
 
-@inject IDbContextFactory<ApplicationDbContext> DbFactory
+@inject ICountriesRepo repo
 @inject NavigationManager NavigationManager
 
-<PageTitle>Details Country</PageTitle>
-
-<h1>Details</h1>
-
-<div>
-    <h2>Country</h2>
-    <hr />
-    @if (country is null)
-    {
-        <p><em>Loading...</em></p>
-    }
-    else {
-        <MyEntityViewer Entity="country"/>
-        <div>
-            <a href="@($"/countries/edit?id={country.Id}")">Edit</a> |
-            <a href="@($"/countries")">Back to List</a>
-        </div>
-    }
-</div>
+<MyDetailsPage 
+    PageTitleText="Details Country"
+    EntityTitle="Country"
+    Entity="country"
+    EntityId="country?.Id"
+    BasePath="/countries" />
 
 @code {
     private Country country;
@@ -33,14 +20,8 @@
     [SupplyParameterFromQuery]
     private Guid Id { get; set; }
 
-    protected override async Task OnInitializedAsync()
-    {
-        using var context = DbFactory.CreateDbContext();
-        country = await context.Countries.FirstOrDefaultAsync(m => m.Id == Id);
-
-        if (country is null)
-        {
-            NavigationManager.NotFound();
-        }
+    protected override async Task OnInitializedAsync() {
+        country = await repo.GetAsync(Id);
+        if (country is null) NavigationManager.NotFound();
     }
 }

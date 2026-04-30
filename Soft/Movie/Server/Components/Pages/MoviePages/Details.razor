@@ -4,28 +4,15 @@
 @using Abc.Data
 @using Abc.Infra
 
-@inject IDbContextFactory<ApplicationDbContext> DbFactory
+@inject IMoviesRepo repo
 @inject NavigationManager NavigationManager
 
-<PageTitle>Details</PageTitle>
-
-<h1>Details</h1>
-
-<div>
-    <h2>Movie</h2>
-    <hr />
-    @if (movie is null)
-    {
-        <p><em>Loading...</em></p>
-    }
-    else {
-        <MyEntityViewer Entity="movie"/>
-        <div>
-            <a href="@($"/movies/edit?id={movie.Id}")">Edit</a> |
-            <a href="@($"/movies")">Back to List</a>
-        </div>
-    }
-</div>
+<MyDetailsPage 
+    PageTitleText="Details Movie"
+    EntityTitle="Movie"
+    Entity="movie"
+    EntityId="movie?.Id"
+    BasePath="/movies" />
 
 @code {
     private Movie movie;
@@ -33,14 +20,8 @@
     [SupplyParameterFromQuery]
     private Guid Id { get; set; }
 
-    protected override async Task OnInitializedAsync()
-    {
-        using var context = DbFactory.CreateDbContext();
-        movie = await context.Movies.FirstOrDefaultAsync(m => m.Id == Id);
-
-        if (movie is null)
-        {
-            NavigationManager.NotFound();
-        }
+    protected override async Task OnInitializedAsync() {
+        movie = await repo.GetAsync(Id);
+        if (movie is null) NavigationManager.NotFound();
     }
 }

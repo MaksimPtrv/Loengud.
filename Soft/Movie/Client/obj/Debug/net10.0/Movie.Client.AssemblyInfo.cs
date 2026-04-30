@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Abc.Soft.Web.Client")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+4b9825e6065ff7cff3978bfcb8a740f49460d5df")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+f527bf222dfc39a4440385a3ec8fc1c01510c354")]
 [assembly: System.Reflection.AssemblyProductAttribute("Abc.Soft.Web.Client")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Abc.Soft.Web.Client")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

@@ -4,10 +4,10 @@
 @using Abc.Data
 @using Abc.Infra
 
-@inject IDbContextFactory<ApplicationDbContext> DbFactory
+@inject IMoviesRepo repo
 @inject NavigationManager NavigationManager
 
-<PageTitle>Delete</PageTitle>
+<PageTitle>Delete Movie</PageTitle>
 
 <h1>Delete</h1>
 
@@ -21,11 +21,7 @@
     }
     else {
         <MyEntityViewer Entity="movie"/>
-        //<MyViewItem Label="Title" Value="@movie.Title"/>
-        //<MyViewItem Label="ReleaseDate" Value="@movie.ReleaseDate.ToString()"/>
-        //<MyViewItem Label="Genre" Value="@movie.Genre"/>
-        //<MyViewItem Label="Price" Value="@movie.Price.ToString()"/>
-        <EditForm method="post" Model="movie" OnValidSubmit="DeleteMovie" FormName="delete" Enhance>
+        <EditForm method="post" Model="movie" OnValidSubmit="deleteMovie" FormName="delete" Enhance>
             <button type="submit" class="btn btn-danger" disabled="@(movie is null)">Delete</button> |
             <a href="/movies">Back to List</a>
         </EditForm>
@@ -34,19 +30,19 @@
 
 @code {
     private Movie movie;
-    [SupplyParameterFromQuery] private Guid Id { get; set; }
-    protected override async Task OnInitializedAsync() {
-        using var context = DbFactory.CreateDbContext();
-        movie = await context.Movies.FirstOrDefaultAsync(m => m.Id == Id);
 
+    [SupplyParameterFromQuery]
+    private Guid Id { get; set; }
+
+    protected override async Task OnInitializedAsync()
+    {
+        movie = await repo.GetAsync(Id);
         if (movie is null) NavigationManager.NotFound();
     }
 
-    private async Task DeleteMovie()
+    private async Task deleteMovie()
     {
-        using var context = DbFactory.CreateDbContext();
-        context.Movies.Remove(movie!);
-        await context.SaveChangesAsync();
+        await repo.DeleteAsync(movie!.Id);
         NavigationManager.NavigateTo("/movies");
     }
 }
