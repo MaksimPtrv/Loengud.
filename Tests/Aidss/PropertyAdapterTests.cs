@@ -21,9 +21,14 @@ namespace Abc.Tests.Aids;
     [TestMethod] public void ItemTypeTest() => areEqual(typeof(testClass), obj.ItemType);
     [TestMethod] public void ItemTest() => areSame(item, obj.Item);
     [TestMethod] public void PropInfoTest() => areEqual(propName, obj.PropInfo.Name);
-    [TestMethod] public void PropTypeTest() => areEqual(typeof(int?), obj.PropType);
-    [TestMethod] public void UnderlyingTypeTest() => areEqual(typeof(int), obj.UnderlyingType);
-    [TestMethod] public void PropTypeStrTest() => areEqual(typeof(string), objStr.PropType);
+    [TestMethod] public void PropTypeTest(){
+        areEqual(typeof(int?), obj.PropType);
+        areEqual(typeof(string), objStr.PropType);
+    }
+    [TestMethod] public void UnderlyingTypeTest(){
+        areEqual(typeof(int), obj.UnderlyingType);
+        areEqual(typeof(string), objStr.UnderlyingType);
+    }
     [TestMethod] public void UnderlyingTypeStrTest() => areEqual(typeof(string), objStr.UnderlyingType);
     [TestMethod] public void PropValueTest() => areEqual(null, obj.PropValue);
     [TestMethod] public void SetValueTest()
