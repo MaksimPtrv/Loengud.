@@ -36,7 +36,7 @@ public static class GetRandom
     public static ulong UInt64(ulong min = ulong.MinValue, ulong max = ulong.MaxValue)
     {
         var minLong = (long)min - long.MaxValue;
-        var maxLong = (long)min - long.MaxValue;
+        var maxLong = (long)max - long.MaxValue;
         return (ulong)(Int64(minLong, maxLong) + long.MaxValue);
     }
 

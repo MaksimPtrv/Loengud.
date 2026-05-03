@@ -36,7 +36,7 @@ public sealed class GetRandomTests
     public void UInt32Test()
         => Assert.AreNotEqual(GetRandom.UInt32(0, (uint)max), GetRandom.UInt32(0, (uint)max));
 
-    [TestMethod] //DOENST WORK
+    [TestMethod]
     public void UInt64Test()
         => Assert.AreNotEqual(GetRandom.UInt64(0, (ulong)max), GetRandom.UInt64(0, (ulong)max));
 
@@ -52,11 +52,11 @@ public sealed class GetRandomTests
     public void DecimalTest()
         => Assert.AreNotEqual(GetRandom.Decimal(min, max), GetRandom.Decimal(min, max));
 
-    [TestMethod] //DOENST WORK
+    [TestMethod]
     public void StringTest()
         => Assert.AreNotEqual(GetRandom.String(0, (byte)max), GetRandom.String(0, (byte)max));
 
-    [TestMethod] //DOENST WORK
+    [TestMethod]
     public void CharTest()
         => Assert.AreNotEqual(GetRandom.Char((char)0, (char)max), GetRandom.Char((char)0, (char)max));
 
@@ -94,8 +94,8 @@ public sealed class GetRandomTests
     public void GuidTest()
         => Assert.AreNotEqual(GetRandom.Guid(), GetRandom.Guid());
 
-    //DOESNT WORK???
-    /*[TestMethod]
+    
+    [TestMethod]
     public void ObjectTest()
     {
         var o1 = GetRandom.Object(typeof(testClass));
@@ -105,5 +105,11 @@ public sealed class GetRandomTests
             if (p.PropertyType.IsArray) continue;
             Assert.AreNotEqual(p.GetValue(o1), p.GetValue(o2));
         }
-    }*/
+    }
+
+    private class testClass
+    {
+        public int IntProp { get; set; }
+        public string StringProp { get; set; }
+    }
 }

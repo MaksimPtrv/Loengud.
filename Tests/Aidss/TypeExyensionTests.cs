@@ -23,6 +23,8 @@ namespace Abc.Tests.Aids;
     [DataRow(typeof(sbyte?))]
     [DataRow(typeof(byte))]
     [DataRow(typeof(byte?))]
+    [DataRow(typeof(int))]
+    [DataRow(typeof(int?))]
     [TestMethod] public void IsNumericTest(Type t) {
         Assert.IsTrue(TypeExtension.IsNumeric(t));
         Assert.IsTrue(t.IsNumeric());
