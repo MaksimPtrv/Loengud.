@@ -5,7 +5,7 @@ var e=!1;const t=async()=>WebAssembly.validate(new Uint8Array([0,97,115,109,1,0,
   "mainAssemblyName": "Abc.Soft.Web.Client",
   "applicationEnvironment": "Development",
   "resources": {
-    "hash": "sha256-QcAfZUGhPjL9j4hlYm/9D+Da/FAiGSeG9YIFm4PzSZM=",
+    "hash": "sha256-vgixct/eSfmRcBsnNP2ZqdWCBQVbKH1RsgWYFH5Dh/w=",
     "jsModuleNative": [
       {
         "name": "dotnet.native.87vtjjdetb.js"
@@ -60,14 +60,14 @@ var e=!1;const t=async()=>WebAssembly.validate(new Uint8Array([0,97,115,109,1,0,
     "assembly": [
       {
         "virtualPath": "Microsoft.AspNetCore.Authorization.wasm",
-        "name": "Microsoft.AspNetCore.Authorization.roqc1km2rj.wasm",
-        "integrity": "sha256-G2MGZ9ewONcPR9sDqM6GscLX+imqgtCbSDJmYjkq0rc=",
+        "name": "Microsoft.AspNetCore.Authorization.y0sndbe2xe.wasm",
+        "integrity": "sha256-XnlkZk1mfFvgYKOHRETowaxvQPJUaLQm6vlTcDvsB48=",
         "cache": "force-cache"
       },
       {
         "virtualPath": "Microsoft.AspNetCore.Components.wasm",
-        "name": "Microsoft.AspNetCore.Components.uddsvpv1sv.wasm",
-        "integrity": "sha256-wuWRCfk296hzRmhePje6J3ah5yXcxXEBd706DXJFRQ4=",
+        "name": "Microsoft.AspNetCore.Components.09qh35fcip.wasm",
+        "integrity": "sha256-3Fk+Mov6lwH49cg5pfx4gcAjODmjNECf3Vp0sNVBdaE=",
         "cache": "force-cache"
       },
       {
@@ -78,14 +78,14 @@ var e=!1;const t=async()=>WebAssembly.validate(new Uint8Array([0,97,115,109,1,0,
       },
       {
         "virtualPath": "Microsoft.AspNetCore.Components.Forms.wasm",
-        "name": "Microsoft.AspNetCore.Components.Forms.zrueb40r85.wasm",
-        "integrity": "sha256-sTHEhK4OXluS5QYyGPIkfDxAb1DqOuLKpTaWfiJmwgQ=",
+        "name": "Microsoft.AspNetCore.Components.Forms.gorw8iqj27.wasm",
+        "integrity": "sha256-IEQo9uHFP2YSDnJ9/2gZu0aiJVRL05KGRAfCqRn/LO0=",
         "cache": "force-cache"
       },
       {
         "virtualPath": "Microsoft.AspNetCore.Components.Web.wasm",
-        "name": "Microsoft.AspNetCore.Components.Web.g5qdp1mxha.wasm",
-        "integrity": "sha256-XD2AzMV5aAT9HSLBN43quBUP/dVWw6qftqBWBucW0FU=",
+        "name": "Microsoft.AspNetCore.Components.Web.8xg9el10sq.wasm",
+        "integrity": "sha256-7A/AxOLj17NYO2rvz6G1p9dmt1uB/lMPghdrFE8tSTI=",
         "cache": "force-cache"
       },
       {
@@ -102,8 +102,8 @@ var e=!1;const t=async()=>WebAssembly.validate(new Uint8Array([0,97,115,109,1,0,
       },
       {
         "virtualPath": "Microsoft.AspNetCore.Metadata.wasm",
-        "name": "Microsoft.AspNetCore.Metadata.m3mxap0jif.wasm",
-        "integrity": "sha256-3gPh5xu7hiWhbxpuO0oUdHzXtFNcg/mqHDIjIbFraGQ=",
+        "name": "Microsoft.AspNetCore.Metadata.rgu4qwxn86.wasm",
+        "integrity": "sha256-Ox2bU9SxTr5/bzZuBcK5Tq/L/gELQarTrFEtUGGXvNI=",
         "cache": "force-cache"
       },
       {
@@ -114,20 +114,20 @@ var e=!1;const t=async()=>WebAssembly.validate(new Uint8Array([0,97,115,109,1,0,
       },
       {
         "virtualPath": "Microsoft.Extensions.Configuration.wasm",
-        "name": "Microsoft.Extensions.Configuration.fgwnqtu7qk.wasm",
-        "integrity": "sha256-D5KB5N8DmzgXD7IIQwluWKs42DZg7/JJfC1Ig3H58vY=",
+        "name": "Microsoft.Extensions.Configuration.ls9u3wlkav.wasm",
+        "integrity": "sha256-FUDGrrfpvLwIkN1H0klT9cAOPe9jOgO+g9pOtQzm2xs=",
         "cache": "force-cache"
       },
       {
         "virtualPath": "Microsoft.Extensions.Configuration.Abstractions.wasm",
-        "name": "Microsoft.Extensions.Configuration.Abstractions.thew1o6jcx.wasm",
-        "integrity": "sha256-YTLJpJ1JxkU9eodqZ+opZ9x9GpG21u85Vm+XqDhEnK0=",
+        "name": "Microsoft.Extensions.Configuration.Abstractions.4wl54mcbny.wasm",
+        "integrity": "sha256-7OWKvkauE8n2UuROEAUJAmlzYtA9XX8hW12dJJb4SWc=",
         "cache": "force-cache"
       },
       {
         "virtualPath": "Microsoft.Extensions.Configuration.Binder.wasm",
-        "name": "Microsoft.Extensions.Configuration.Binder.7o70008j8o.wasm",
-        "integrity": "sha256-KZmgQYV5Lt7ByebbA6decx/7/5wBMmOPdRnvbbOBG70=",
+        "name": "Microsoft.Extensions.Configuration.Binder.miz8ol386m.wasm",
+        "integrity": "sha256-Mt4FLX0gga7xAVka2o9U2XyBdvmDZx1rGwMNpR95Y6I=",
         "cache": "force-cache"
       },
       {
@@ -144,26 +144,26 @@ var e=!1;const t=async()=>WebAssembly.validate(new Uint8Array([0,97,115,109,1,0,
       },
       {
         "virtualPath": "Microsoft.Extensions.DependencyInjection.wasm",
-        "name": "Microsoft.Extensions.DependencyInjection.vs620n44bv.wasm",
-        "integrity": "sha256-EXUNskckZFDMuWWnJPnqOVoWea3we0Hxa95yYf+xjCQ=",
+        "name": "Microsoft.Extensions.DependencyInjection.5tzvwbi8co.wasm",
+        "integrity": "sha256-CROtsTGDTDJlWx7ZklMQhZcEfWcwJDFLhufWD9MlngY=",
         "cache": "force-cache"
       },
       {
         "virtualPath": "Microsoft.Extensions.DependencyInjection.Abstractions.wasm",
-        "name": "Microsoft.Extensions.DependencyInjection.Abstractions.ud13mwbta3.wasm",
-        "integrity": "sha256-PpBs/eBAhpaDsADGsob5OEbcNGTxc0pej98psWfWjrM=",
+        "name": "Microsoft.Extensions.DependencyInjection.Abstractions.8pvxjyp0o1.wasm",
+        "integrity": "sha256-vGl9tIbONmhneLc24yhhn4QNyhmQV33L4TPNeHmfWcY=",
         "cache": "force-cache"
       },
       {
         "virtualPath": "Microsoft.Extensions.Diagnostics.wasm",
-        "name": "Microsoft.Extensions.Diagnostics.jnogfbng3i.wasm",
-        "integrity": "sha256-MTR1NLwrzXe0SPvtvttyL6zsX1lCjgPnydpz4nW6Mxo=",
+        "name": "Microsoft.Extensions.Diagnostics.mhqc8e7pzx.wasm",
+        "integrity": "sha256-GsHfOQjkNYtqbgg/dyJSjMTwAAg0R5llyXQlombxh0o=",
         "cache": "force-cache"
       },
       {
         "virtualPath": "Microsoft.Extensions.Diagnostics.Abstractions.wasm",
-        "name": "Microsoft.Extensions.Diagnostics.Abstractions.v59ymogeuz.wasm",
-        "integrity": "sha256-4xgO9yBlTZBNJ+KR0SBjKSeMqh6CoSOevMehMsXhayA=",
+        "name": "Microsoft.Extensions.Diagnostics.Abstractions.ldo4u1l3de.wasm",
+        "integrity": "sha256-lxnltDPEC9joE3W6qq/70Mk7LYtW4ixL2Mzv3HlnJcE=",
         "cache": "force-cache"
       },
       {
@@ -192,38 +192,38 @@ var e=!1;const t=async()=>WebAssembly.validate(new Uint8Array([0,97,115,109,1,0,
       },
       {
         "virtualPath": "Microsoft.Extensions.Logging.Abstractions.wasm",
-        "name": "Microsoft.Extensions.Logging.Abstractions.1q3x7vre4l.wasm",
-        "integrity": "sha256-5/skwcro+miLeAW0+DIiiy2N9/0lMXvcH7LyAr9wacI=",
+        "name": "Microsoft.Extensions.Logging.Abstractions.60456wql8i.wasm",
+        "integrity": "sha256-hskUM1SV5rg80tZ948nKSBXuCBIOP6bqk+naZ6taR2w=",
         "cache": "force-cache"
       },
       {
         "virtualPath": "Microsoft.Extensions.Options.wasm",
-        "name": "Microsoft.Extensions.Options.2rz5zbidnd.wasm",
-        "integrity": "sha256-PrPNB4uF87saF4wn4wOtUMtwGEGphK6czOeS2ZoS8xY=",
+        "name": "Microsoft.Extensions.Options.toph8h75gu.wasm",
+        "integrity": "sha256-TTjXyrJeWCYIJz2L58VdqsC4h5p+ETfOQXT2HK1H08o=",
         "cache": "force-cache"
       },
       {
         "virtualPath": "Microsoft.Extensions.Options.ConfigurationExtensions.wasm",
-        "name": "Microsoft.Extensions.Options.ConfigurationExtensions.zmb03w0weu.wasm",
-        "integrity": "sha256-652PeC0NOeRXAGuKIVsw6IOAbOjqYxwiAQzRSRNZX6U=",
+        "name": "Microsoft.Extensions.Options.ConfigurationExtensions.lr1zv6h3in.wasm",
+        "integrity": "sha256-sRo8IL3AWpwataUF+yu5aJ9dnauV7JITPFTXDcZDYNs=",
         "cache": "force-cache"
       },
       {
         "virtualPath": "Microsoft.Extensions.Primitives.wasm",
-        "name": "Microsoft.Extensions.Primitives.bd164v6l3f.wasm",
-        "integrity": "sha256-b0zJNvj5YDRD34cwkYLJ2wyQ4DRqQhXtTuJ+XlS9/zo=",
+        "name": "Microsoft.Extensions.Primitives.9g1xy6wvar.wasm",
+        "integrity": "sha256-Z4BvU/X2ihDsd9AHnzbpaYe5A5HkKmUw2CKycSzlaWM=",
         "cache": "force-cache"
       },
       {
         "virtualPath": "Microsoft.Extensions.Validation.wasm",
-        "name": "Microsoft.Extensions.Validation.r1sv3m5lsf.wasm",
-        "integrity": "sha256-QdXTsh7zkwbh9Mf0A/ImTlaiefipVUlZ6uvOUX6C+Xk=",
+        "name": "Microsoft.Extensions.Validation.fejvxfp9cz.wasm",
+        "integrity": "sha256-96D09adKpTo+ojlYbICtdti9M4Iyc78OFxIf3AD3kDU=",
         "cache": "force-cache"
       },
       {
         "virtualPath": "Microsoft.JSInterop.wasm",
-        "name": "Microsoft.JSInterop.1r0ampr2q1.wasm",
-        "integrity": "sha256-TSwG0RXuP19z/VcPtEg0e8LJSFS4rFKf01zHcqNJaKA=",
+        "name": "Microsoft.JSInterop.9do6y9xojp.wasm",
+        "integrity": "sha256-IwlmRG63HPGn5pksyVf9tIFcJxjcwmnJNlQr0YdcQ9E=",
         "cache": "force-cache"
       },
       {
@@ -1254,40 +1254,40 @@ var e=!1;const t=async()=>WebAssembly.validate(new Uint8Array([0,97,115,109,1,0,
       },
       {
         "virtualPath": "Abc.Shared.wasm",
-        "name": "Abc.Shared.wdlhj7mt61.wasm",
-        "integrity": "sha256-hJUANdGo7V9yI6D4ZA6kDiU1DvACxw9qj3meN9/T6bc=",
+        "name": "Abc.Shared.zxrg82fnv2.wasm",
+        "integrity": "sha256-d/HOzx66vQ8PcCWxx4n883IgI9si339Y+/B/UOiJ9J4=",
         "cache": "force-cache"
       },
       {
         "virtualPath": "Abc.Aids.wasm",
-        "name": "Abc.Aids.xrpw4b705x.wasm",
-        "integrity": "sha256-g7WKv6FL87msmBdkSeI4Hit9QaxUypiAabiAI1rjQmU=",
+        "name": "Abc.Aids.l41cbtvll2.wasm",
+        "integrity": "sha256-tT+idYb6Fi0lJyHhXVWUg5V/KUo2DUp9E13qOZmGzqo=",
         "cache": "force-cache"
       },
       {
         "virtualPath": "Abc.Soft.Web.Client.wasm",
-        "name": "Abc.Soft.Web.Client.mo40n0wy9f.wasm",
-        "integrity": "sha256-SvGWBDFen9KBAkjww0QdSJHN9/sXtxUYffTo+FPy660=",
+        "name": "Abc.Soft.Web.Client.uh4hoiaoek.wasm",
+        "integrity": "sha256-AnF9VKJzD/FMyud7AQI9E4PQj0NajpOK2HioY5/GB40=",
         "cache": "force-cache"
       }
     ],
     "pdb": [
       {
         "virtualPath": "Abc.Shared.pdb",
-        "name": "Abc.Shared.8n43ltj6x6.pdb",
-        "integrity": "sha256-RLNtlcDpSWpOLmiPdb+U4/YNe6wJpyd/pswETy+/CaY=",
+        "name": "Abc.Shared.q93wwz1phh.pdb",
+        "integrity": "sha256-cktoM318+3Wakem7Jx1AHWK72GOVk8Sjgst/TNM5+y0=",
         "cache": "force-cache"
       },
       {
         "virtualPath": "Abc.Aids.pdb",
-        "name": "Abc.Aids.2gel9jbn8o.pdb",
-        "integrity": "sha256-nn5q+MEhsfGm/eAVOtSMvr9H0q12xnTrW6OXNyzbqxY=",
+        "name": "Abc.Aids.nr2e28cxp8.pdb",
+        "integrity": "sha256-fZjpEwgT+8aSoSOKGSjV2BCt6k88vA+fzpu5yxuC/w8=",
         "cache": "force-cache"
       },
       {
         "virtualPath": "Abc.Soft.Web.Client.pdb",
-        "name": "Abc.Soft.Web.Client.ynmvht2l25.pdb",
-        "integrity": "sha256-gtaxKUWlFF/KGfVxhi9463H1I1KcXZ729J8tp164uHc=",
+        "name": "Abc.Soft.Web.Client.69ji02tkwr.pdb",
+        "integrity": "sha256-+kmQwdXL0CUy6H0kNu5rWslkH1x8KnaWihuHp7w2Otw=",
         "cache": "force-cache"
       }
     ],

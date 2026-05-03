@@ -30,6 +30,7 @@
 
   <ItemGroup>
     <Folder Include="Components/Pages/CountryPages/" />
+    <Folder Include="Data/" />
   </ItemGroup>
 
 </Project>
