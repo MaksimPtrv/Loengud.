@@ -13,6 +13,7 @@ public class Movie : NamedEntity {
     [Column(TypeName = "decimal(18, 2)")]
     public decimal Price { get; set; }
     public Money Money { get; set; }
+    public Guid CountryId { get; set; }
     public Country Country { get; set; }
 
 }

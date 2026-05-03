@@ -11,3 +11,8 @@ public class CurrenciesRepos(ApplicationDbContext c = null)
 public class CountriesRepos(ApplicationDbContext c = null)
     : EfBaseRepo<ApplicationDbContext, Country>(c), ICountriesRepo{
 }
+public class MoniesRepos(ApplicationDbContext c = null)
+    : EfBaseRepo<ApplicationDbContext, Money>(c), IMoniesRepo{
+}
+public class CountryCurrenciesRepos(ApplicationDbContext c = null)
+    : EfBaseRepo<ApplicationDbContext, CountryCurrency>(c), ICountryCurrenciesRepo{}
