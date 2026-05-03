@@ -18,12 +18,17 @@
             <DataAnnotationsValidator />
             <ValidationSummary class="text-danger" role="alert" />
             <MyEntityEditor Entity="Movie" />
-            @*
-            <MyPropertyEditor TValue="string" Id="title" Label="Title:" @bind-Value="Movie.Name" />
-            <MyPropertyEditor TValue="DateTime?" Id="releasedate" Label="ReleaseDate:" @bind-Value="Movie.ValidFrom" />
-            <MyPropertyEditor TValue="string" Id="genre" Label="Genre:" @bind-Value="Movie.Genre" />
-            <MyPropertyEditor TValue="decimal" Id="price" Label="Price:" @bind-Value="Movie.Price" />
-            *@
+            <div class="mb-3">
+                <label for="countryId" class="form-label">Country</label>
+                <InputSelect id="countryId" class="form-control" @bind-Value="Movie.CountryId">
+                    <option value="@Guid.Empty">-- Select a Country --</option>
+                    @foreach (var country in Countries)
+                    {
+                        <option value="@country.Id">@country.Name</option>
+                    }
+                </InputSelect>
+                <ValidationMessage For="@(() => Movie.CountryId)" class="text-danger" />
+            </div>
             <button type="submit" class="btn btn-primary">Create</button>
         </EditForm>
     </div>
@@ -36,8 +41,14 @@
 @code {
     [SupplyParameterFromForm]
     private Movie Movie { get; set; } = default!;
+    private List<Country> Countries { get; set; } = [];
 
-    protected override void OnInitialized() => Movie ??= new();
+    protected override async Task OnInitializedAsync()
+    {
+        Movie ??= new();
+        using var context = DbFactory.CreateDbContext();
+        Countries = await context.Countries.ToListAsync();
+    }
 
     // To protect from overposting attacks, see https://learn.microsoft.com/aspnet/core/blazor/forms/#mitigate-overposting-attacks.
     private async Task AddMovie()
