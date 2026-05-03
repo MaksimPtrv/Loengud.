@@ -180,9 +180,6 @@ namespace Abc.Infra.Migrations
                     b.Property<string>("Code")
                         .HasColumnType("TEXT");
 
-                    b.Property<Guid>("CountryId")
-                        .HasColumnType("TEXT");
-
                     b.Property<string>("Details")
                         .HasColumnType("TEXT");
 
@@ -210,8 +207,6 @@ namespace Abc.Infra.Migrations
                         .HasColumnType("TEXT");
 
                     b.HasKey("Id");
-
-                    b.HasIndex("CountryId");
 
                     b.HasIndex("MoneyId");
 
@@ -440,17 +435,9 @@ namespace Abc.Infra.Migrations
 
             modelBuilder.Entity("Abc.Data.Movie", b =>
                 {
-                    b.HasOne("Abc.Data.Country", "Country")
-                        .WithMany()
-                        .HasForeignKey("CountryId")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
-
                     b.HasOne("Abc.Data.Money", "Money")
                         .WithMany()
                         .HasForeignKey("MoneyId");
-
-                    b.Navigation("Country");
 
                     b.Navigation("Money");
                 });

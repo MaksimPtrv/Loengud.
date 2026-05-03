@@ -2,60 +2,18 @@
 @attribute [ExcludeFromInteractiveRouting]
 @using Abc.Data
 @using Abc.Infra
-@using Microsoft.EntityFrameworkCore
-@inject IDbContextFactory<ApplicationDbContext> DbFactory
+@inject IMoviesRepo repo
 @inject NavigationManager NavigationManager
 
-<PageTitle>Create</PageTitle>
-
-<h1>Create</h1>
-
-<h2>Movie</h2>
-<hr />
-<div class="row">
-    <div class="col-md-4">
-        <EditForm method="post" Model="Movie" OnValidSubmit="AddMovie" FormName="create" Enhance>
-            <DataAnnotationsValidator />
-            <ValidationSummary class="text-danger" role="alert" />
-            <MyEntityEditor Entity="Movie" />
-            <div class="mb-3">
-                <label for="countryId" class="form-label">Country</label>
-                <InputSelect id="countryId" class="form-control" @bind-Value="Movie.CountryId">
-                    <option value="@Guid.Empty">-- Select a Country --</option>
-                    @foreach (var country in Countries)
-                    {
-                        <option value="@country.Id">@country.Name</option>
-                    }
-                </InputSelect>
-                <ValidationMessage For="@(() => Movie.CountryId)" class="text-danger" />
-            </div>
-            <button type="submit" class="btn btn-primary">Create</button>
-        </EditForm>
-    </div>
-</div>
-
-<div>
-    <a href="/movies">Back to List</a>
-</div>
+<MyCreatePage PageTitleText="Create Movie" EntityTitle="Movie" BasePath="movies" Entity="Movie" OnValidSubmit="AddMovie"/>
 
 @code {
     [SupplyParameterFromForm]
     private Movie Movie { get; set; } = default!;
-    private List<Country> Countries { get; set; } = [];
 
-    protected override async Task OnInitializedAsync()
-    {
-        Movie ??= new();
-        using var context = DbFactory.CreateDbContext();
-        Countries = await context.Countries.ToListAsync();
-    }
-
-    // To protect from overposting attacks, see https://learn.microsoft.com/aspnet/core/blazor/forms/#mitigate-overposting-attacks.
-    private async Task AddMovie()
-    {
-        using var context = DbFactory.CreateDbContext();
-        context.Movies.Add(Movie);
-        await context.SaveChangesAsync();
+    protected override void OnInitialized() => Movie ??= new();
+    private async Task AddMovie(){
+        await repo.CreateAsync(Movie);
         NavigationManager.NavigateTo("/movies");
     }
 }
