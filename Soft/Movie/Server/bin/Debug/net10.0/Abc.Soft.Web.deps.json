@@ -782,6 +782,9 @@
         }
       },
       "Abc.Shared/1.0.0": {
+        "dependencies": {
+          "Microsoft.AspNetCore.Components.QuickGrid.EntityFrameworkAdapter": "10.0.3"
+        },
         "runtime": {
           "Abc.Shared.dll": {
             "fileVersion": "0.0.0.0"

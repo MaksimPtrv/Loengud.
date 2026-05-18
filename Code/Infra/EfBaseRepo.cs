@@ -3,11 +3,16 @@ using Abc.Data.Common;
 
 namespace Abc.Infra;
 
-public class EfBaseRepo<TContext, TEntity> (TContext c): IRepo<TEntity>
+public class EfBaseRepo<TContext, TEntity> : IRepo<TEntity>
     where TContext : DbContext
     where TEntity : BaseEntity
 {
-    protected readonly TContext db = c;
+    protected readonly TContext db;
+
+    public EfBaseRepo(TContext c)
+    {
+        db = c ?? throw new ArgumentNullException(nameof(c));
+    }
 
     public async Task<TEntity> CreateAsync(TEntity e)
     {

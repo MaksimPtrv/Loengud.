@@ -12,7 +12,7 @@
         <EditForm method="post" Model="Entity" OnValidSubmit="@HandleValidSubmit" FormName="edit" Enhance>
             <DataAnnotationsValidator />
             <ValidationSummary role="alert" />
-            <input type="hidden" name="Entity.Id" value="@EntityId)" />
+            <input type="hidden" name="@idField" value="@EntityId)" />
             <MyEntityEditor Entity="Entity" />
             <button type="submit" class="btn btn-primary">Save</button>
         </EditForm>
@@ -31,6 +31,7 @@
     [Parameter] public object Entity { get; set; }
     [Parameter] public EventCallback OnValidSubmit { get; set; }
     //[Parameter] public RenderFragment ChildContent { get; set; }
+    private string idField => Entity is null ? "id" : $"{Entity.GetType().Name}Id";
     private async Task HandleValidSubmit()
     {
         if (OnValidSubmit.HasDelegate) await OnValidSubmit.InvokeAsync(null);
