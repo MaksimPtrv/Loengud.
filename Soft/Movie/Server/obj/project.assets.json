@@ -1027,6 +1027,9 @@
       "Abc.Shared/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v10.0",
+        "dependencies": {
+          "Microsoft.AspNetCore.Components.QuickGrid.EntityFrameworkAdapter": "10.0.3"
+        },
         "compile": {
           "bin/placeholder/Abc.Shared.dll": {}
         },

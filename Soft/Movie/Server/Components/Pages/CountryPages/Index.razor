@@ -4,8 +4,7 @@
 @using Abc.Infra
 @using Microsoft.EntityFrameworkCore
 @using Abc.Data
-@implements IAsyncDisposable
-@inject IDbContextFactory<ApplicationDbContext> DbFactory
+@inject ICountriesRepo repo
 @inject NavigationManager NavigationManager
 
 <PageTitle>Countries</PageTitle>
@@ -16,32 +15,14 @@
     <a href="countries/create">Create New</a>
 </p>
 
-<QuickGrid Class="table" Items="context.Countries">
-    <PropertyColumn Property="x => x.Code" />
-    <PropertyColumn Property="x => x.Name" />
-    <PropertyColumn Property="x => x.Details" />
-    <PropertyColumn Property="x => x.IsoCode" />
-    <PropertyColumn Property="x => x.NativeName" />
-    <PropertyColumn Property="x => x.NumericCode" />
-    <PropertyColumn Property="x => x.OfficialName" />
-    <PropertyColumn Property="x => x.ValidFrom" />
-    <PropertyColumn Property="x => x.ValidTo" />
-
-
-    <TemplateColumn Context="x">
-        <a href="@($"countries/edit?id={x.Id}")">Edit</a> |
-        <a href="@($"countries/details?id={x.Id}")">Details</a> |
-        <a href="@($"countries/delete?id={x.Id}")">Delete</a>
-    </TemplateColumn>
-</QuickGrid>
+<MyEntitiesTable TEntity="Country" Entities="Countries" BasePath="/countries" />
 
 @code {
-    private ApplicationDbContext context = default!;
+    private IQueryable<Country> Countries = Enumerable.Empty<Country>().AsQueryable();
 
-    protected override void OnInitialized()
+    protected override async Task OnInitializedAsync()
     {
-        context = DbFactory.CreateDbContext();
+        if (repo is null) return;
+        Countries = (await repo.GetAsync()).AsQueryable();
     }
-
-    public async ValueTask DisposeAsync() => await context.DisposeAsync();
 }
