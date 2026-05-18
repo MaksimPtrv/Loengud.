@@ -1,0 +1,27 @@
+@page "/monies/edit"
+@attribute [ExcludeFromInteractiveRouting]
+@using Microsoft.EntityFrameworkCore
+@using Abc.Data
+@using Abc.Infra
+
+@inject IMoniesRepo repo
+@inject NavigationManager NavigationManager
+
+<MyEditPage PageTitleText="Edit Money" EntityTitle="Money" BasePath="/monies" Entity="money" EntityId="@Id" OnValidSubmit="UpdateMoney"/>
+
+@code {
+    [SupplyParameterFromQuery] private Guid Id { get; set; }
+    [SupplyParameterFromForm] private Money money { get; set; }
+
+    protected override async Task OnInitializedAsync()
+    {
+        money ??= await repo.GetAsync(Id);
+        if (money is null) NavigationManager.NotFound();
+    }
+
+    private async Task UpdateMoney()
+    {
+        await repo.UpdateAsync(money!);
+        NavigationManager.NavigateTo("/monies");
+    }
+}

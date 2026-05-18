@@ -1,0 +1,24 @@
+@page "/currencies"
+@attribute [ExcludeFromInteractiveRouting]
+@using Microsoft.AspNetCore.Components.QuickGrid
+@using Abc.Infra
+@using Microsoft.EntityFrameworkCore
+@using Abc.Data
+@inject ICurrenciesRepo repo
+@inject NavigationManager NavigationManager
+
+<MyIndexPage 
+    TItem="Currency" 
+    PageTitleText="Currencies" 
+    EntityTitle="Currencies" 
+    Items="currencies" BasePath="/currencies" />
+
+@code {
+    private IQueryable<Currency> currencies = Enumerable.Empty<Currency>().AsQueryable();
+
+    protected override async Task OnInitializedAsync()
+    {
+        if (repo is null) return;
+        currencies = (await repo.GetAsync()).AsQueryable();
+    }
+}

@@ -1,0 +1,24 @@
+@page "/monies"
+@attribute [ExcludeFromInteractiveRouting]
+@using Microsoft.AspNetCore.Components.QuickGrid
+@using Abc.Infra
+@using Microsoft.EntityFrameworkCore
+@using Abc.Data
+@inject IMoniesRepo repo
+@inject NavigationManager NavigationManager
+
+<MyIndexPage 
+    TItem="Money" 
+    PageTitleText="Monies" 
+    EntityTitle="Monies" 
+    Items="monies" BasePath="/monies" />
+
+@code {
+    private IQueryable<Money> monies = Enumerable.Empty<Money>().AsQueryable();
+
+    protected override async Task OnInitializedAsync()
+    {
+        if (repo is null) return;
+        monies = (await repo.GetAsync()).AsQueryable();
+    }
+}

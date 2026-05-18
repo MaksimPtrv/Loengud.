@@ -14,7 +14,6 @@
 
     protected override void OnInitialized() => country ??= new();
 
-    // To protect from overposting attacks, see https://learn.microsoft.com/aspnet/core/blazor/forms/#mitigate-overposting-attacks.
     private async Task addCountry()
     {
         await repo.CreateAsync(country);

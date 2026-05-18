@@ -1,0 +1,27 @@
+@page "/countrycurrencies/details"
+@attribute [ExcludeFromInteractiveRouting]
+@using Microsoft.EntityFrameworkCore
+@using Abc.Data
+@using Abc.Infra
+
+@inject ICountryCurrenciesRepo repo
+@inject NavigationManager NavigationManager
+
+<MyDetailsPage 
+    PageTitleText="Details Country Currency"
+    EntityTitle="Country Currency"
+    Entity="countryCurrency"
+    EntityId="countryCurrency?.Id"
+    BasePath="/countrycurrencies" />
+
+@code {
+    private CountryCurrency countryCurrency;
+
+    [SupplyParameterFromQuery]
+    private Guid Id { get; set; }
+
+    protected override async Task OnInitializedAsync() {
+        countryCurrency = await repo.GetAsync(Id);
+        if (countryCurrency is null) NavigationManager.NotFound();
+    }
+}
