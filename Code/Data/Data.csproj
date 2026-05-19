@@ -5,16 +5,12 @@
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>disable</Nullable>
     <AssemblyName>Abc.Data</AssemblyName>
-    <RootNameSpace>Abc.Data</RootNameSpace>
+    <RootNamespace>Abc.Data</RootNamespace>
     <PlatformTarget>AnyCPU</PlatformTarget>
   </PropertyGroup>
 
   <ItemGroup>
-    <ProjectReference Include="../Aids/Aids.csproj" />
-  </ItemGroup>
-
-  <ItemGroup>
-    <Folder Include="_Doc/" />
+    <ProjectReference Include="..\Aids\Aids.csproj" />
   </ItemGroup>
 
 </Project>

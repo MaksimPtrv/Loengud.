@@ -28,9 +28,9 @@
 /Users/maksimp/Documents/Blasor/Code/Shared/obj/Debug/net10.0/scopedcss/Components/MyNavLink.razor.rz.scp.css
 /Users/maksimp/Documents/Blasor/Code/Shared/obj/Debug/net10.0/scopedcss/bundle/Abc.Shared.styles.css
 /Users/maksimp/Documents/Blasor/Code/Shared/obj/Debug/net10.0/scopedcss/projectbundle/Abc.Shared.bundle.scp.css
-/Users/maksimp/Documents/Blasor/Code/Shared/obj/Debug/net10.0/compressed/j4rr02ik7x-{0}-luzdqbu196-luzdqbu196.gz
-/Users/maksimp/Documents/Blasor/Code/Shared/obj/Debug/net10.0/compressed/kmdzzlrzqm-{0}-3uzbthu5zw-3uzbthu5zw.gz
-/Users/maksimp/Documents/Blasor/Code/Shared/obj/Debug/net10.0/compressed/kk8z6b8yqy-{0}-zrinav3c1g-zrinav3c1g.gz
+/Users/maksimp/Documents/Blasor/Code/Shared/obj/Debug/net10.0/compressed/j4rr02ik7x-{0}-6pqz8bsss0-6pqz8bsss0.gz
+/Users/maksimp/Documents/Blasor/Code/Shared/obj/Debug/net10.0/compressed/kmdzzlrzqm-{0}-ymi30o1uvz-ymi30o1uvz.gz
+/Users/maksimp/Documents/Blasor/Code/Shared/obj/Debug/net10.0/compressed/kk8z6b8yqy-{0}-oth47tioj0-oth47tioj0.gz
 /Users/maksimp/Documents/Blasor/Code/Shared/obj/Debug/net10.0/staticwebassets.build.json
 /Users/maksimp/Documents/Blasor/Code/Shared/obj/Debug/net10.0/staticwebassets.build.json.cache
 /Users/maksimp/Documents/Blasor/Code/Shared/obj/Debug/net10.0/staticwebassets.development.json

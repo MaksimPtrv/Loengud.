@@ -1,16 +1,11 @@
-using System;
-
+﻿
 namespace Abc.Aids;
 
-public static class TypeExtension
-{
-
+public static class TypeExtension {
     public static bool IsBool(this Type t) => toUnderlying(t) == typeof(bool);
-    private static Type toUnderlying(Type t)
+    private static Type toUnderlying(Type t) 
         => t is null ? null : Nullable.GetUnderlyingType(t) ?? t;
-
-    public static bool IsDate(this Type t) =>
-        t == typeof(DateTime) || t == typeof(DateOnly);
+    public static bool IsDate(this Type t) => t == typeof(DateTime) || t == typeof(DateOnly);
     public static bool IsString(this Type t) => t == typeof(string);
     public static bool IsNumeric(this Type t) {
         t = toUnderlying(t);
