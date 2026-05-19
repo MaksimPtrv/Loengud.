@@ -15,7 +15,7 @@ public sealed class SeedDb(ApplicationDbContext db, int recCnt = 20) {
             nameof(Country.Currencies), 
             nameof(Country.Timestamp)]);
         
-        await seedTable(db.Monies, [
+        await seedTable(db.Money, [
             nameof(Money.CurrencyId), 
             nameof(Money.Currency), 
             nameof(Money.Timestamp)]);
@@ -38,6 +38,10 @@ public sealed class SeedDb(ApplicationDbContext db, int recCnt = 20) {
         for (var i = 1; i <= recCnt; i++) {
             var item = (T) GetRandom.Object(typeof(T), exclude);
             items.Add(item);
+            if (items.Count % 100 != 0) continue;
+            await set.AddRangeAsync(items);
+            await db.SaveChangesAsync();
+            items = [];
         }
         await set.AddRangeAsync(items);
         await db.SaveChangesAsync();

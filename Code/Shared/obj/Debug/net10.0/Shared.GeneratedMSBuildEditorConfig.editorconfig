@@ -42,6 +42,10 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50cy9NeVByb3BlcnR5Vmlld2VyLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
+[/Users/maksimp/Documents/Blasor/Code/Shared/Components/MyTablePageNav.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50cy9NeVRhYmxlUGFnZU5hdi5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
 [/Users/maksimp/Documents/Blasor/Code/Shared/Pages/MyCreatePage.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXMvTXlDcmVhdGVQYWdlLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
