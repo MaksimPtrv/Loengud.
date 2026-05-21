@@ -1,10 +1,10 @@
+
 using Abc.Infra;
+using Abc.Soft.Web;
+using Abc.Soft.Web.Components.Account;
 using Microsoft.AspNetCore.Components.Authorization;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
-using Abc.Soft.Web.Client.Pages;
-using Abc.Soft.Web.Components;
-using Abc.Soft.Web.Components.Account;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -31,9 +31,12 @@ builder.Services.AddDbContextFactory<ApplicationDbContext>(options => options.Us
 
 builder.Services.AddQuickGridEntityFrameworkAdapter();
 //builder.Services.AddDbContext<ApplicationDbContext>(options =>
-//  options.UseSqlite(connectionString));
-builder.Services.AddScoped(sp => 
+//    options.UseSqlite(connectionString));
+
+// Kui kuskil on DI-s vaja ApplicationDbContext-i (mitte factory’t), võta see factory kaudu:
+builder.Services.AddScoped(sp =>
     sp.GetRequiredService<IDbContextFactory<ApplicationDbContext>>().CreateDbContext());
+
 builder.Services.AddDatabaseDeveloperPageExceptionFilter();
 
 builder.Services.AddIdentityCore<ApplicationUser>(options =>
@@ -46,22 +49,20 @@ builder.Services.AddIdentityCore<ApplicationUser>(options =>
     .AddDefaultTokenProviders();
 
 builder.Services.AddSingleton<IEmailSender<ApplicationUser>, IdentityNoOpEmailSender>();
-
-// Add repository services
-builder.Services.AddScoped<IMoviesRepo, MoviesRepos>();
-builder.Services.AddScoped<ICountriesRepo, CountriesRepos>();
-builder.Services.AddScoped<ICurrenciesRepo, CurrenciesRepos>();
-builder.Services.AddScoped<IMoniesRepo, MoniesRepos>();
-builder.Services.AddScoped<ICountryCurrenciesRepo, CountryCurrenciesRepos>();
-
+builder.Services.AddScoped<IMoviesRepo, MoviesRepo>();
+builder.Services.AddScoped<ICountriesRepo, CountriesRepo>();
+builder.Services.AddScoped<ICurrenciesRepo, CurrenciesRepo>();
+builder.Services.AddScoped<IMoneyRepo, MoneyRepo>();
+builder.Services.AddScoped<ICountryCurrenciesRepo, CountryCurrenciesRepo>();
 
 var app = builder.Build();
 
-using (var scope = app.Services.CreateScope())
-{
-    var dbContext = scope.ServiceProvider.GetRequiredService<ApplicationDbContext>();
-    dbContext.Database.Migrate();
-}
+using var scope = app.Services.CreateScope();
+var sp = scope.ServiceProvider;
+var db = sp.GetRequiredService<ApplicationDbContext>();
+await new SeedDb(db, 10000).Seed();
+
+
 
 // Configure the HTTP request pipeline.
 if (app.Environment.IsDevelopment())

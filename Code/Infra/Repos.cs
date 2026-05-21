@@ -1,18 +1,14 @@
-using Abc.Data;
+﻿using Abc.Data;
 
 namespace Abc.Infra;
 
-public class MoviesRepos(ApplicationDbContext c)
-    : EfBaseRepo<ApplicationDbContext, Movie>(c), IMoviesRepo {
-}
-public class CurrenciesRepos(ApplicationDbContext c)
-    : EfBaseRepo<ApplicationDbContext, Currency>(c), ICurrenciesRepo{
-}
-public class CountriesRepos(ApplicationDbContext c)
-    : EfBaseRepo<ApplicationDbContext, Country>(c), ICountriesRepo{
-}
-public class MoniesRepos(ApplicationDbContext c)
-    : EfBaseRepo<ApplicationDbContext, Money>(c), IMoniesRepo{
-}
-public class CountryCurrenciesRepos(ApplicationDbContext c)
-    : EfBaseRepo<ApplicationDbContext, CountryCurrency>(c), ICountryCurrenciesRepo{}
+public class MoviesRepo (ApplicationDbContext c = null)
+    : EfBaseRepo<ApplicationDbContext, Movie>(c), IMoviesRepo { }
+public class CurrenciesRepo(ApplicationDbContext c = null)
+    : EfBaseRepo<ApplicationDbContext, Currency>(c), ICurrenciesRepo { }
+public class CountriesRepo(ApplicationDbContext c = null)
+    : EfBaseRepo<ApplicationDbContext, Country>(c), ICountriesRepo { }
+public class MoneyRepo(ApplicationDbContext c = null)
+    : EfBaseRepo<ApplicationDbContext, Money>(c), IMoneyRepo { }
+public class CountryCurrenciesRepo(ApplicationDbContext c = null)
+    : EfBaseRepo<ApplicationDbContext, CountryCurrency>(c), ICountryCurrenciesRepo { }

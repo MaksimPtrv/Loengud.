@@ -5,12 +5,12 @@
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>disable</Nullable>
     <AssemblyName>Abc.Domain</AssemblyName>
-    <RootNameSpace>Abc.Domain</RootNameSpace>
+    <RootNamespace>Abc.Domain</RootNamespace>
     <PlatformTarget>AnyCPU</PlatformTarget>
   </PropertyGroup>
 
   <ItemGroup>
-    <ProjectReference Include="../Data/Data.csproj" />
+    <ProjectReference Include="..\Data\Data.csproj" />
   </ItemGroup>
 
 </Project>

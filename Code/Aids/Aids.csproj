@@ -5,7 +5,7 @@
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>disable</Nullable>
     <AssemblyName>Abc.Aids</AssemblyName>
-    <RootNameSpace>Abc.Aids</RootNameSpace>
+    <RootNamespace>Abc.Aids</RootNamespace>
     <PlatformTarget>AnyCPU</PlatformTarget>
   </PropertyGroup>
 

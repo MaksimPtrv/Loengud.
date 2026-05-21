@@ -1,22 +1,14 @@
 is_global = true
 build_property.TargetFramework = net10.0
-build_property.TargetFramework = net10.0
-build_property.TargetPlatformMinVersion = 
-build_property.TargetPlatformMinVersion = 
-build_property.UsingMicrosoftNETSdkWeb = true
-build_property.UsingMicrosoftNETSdkWeb = true
-build_property.ProjectTypeGuids = 
-build_property.ProjectTypeGuids = 
-build_property.InvariantGlobalization = 
-build_property.InvariantGlobalization = 
-build_property.PlatformNeutralAssembly = 
-build_property.PlatformNeutralAssembly = 
-build_property.EnforceExtendedAnalyzerRules = 
-build_property.EnforceExtendedAnalyzerRules = 
-build_property._SupportedPlatformList = Linux,macOS,Windows
-build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.TargetFrameworkIdentifier = .NETCoreApp
 build_property.TargetFrameworkVersion = v10.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = Abc.Soft.Web
 build_property.RootNamespace = Abc.Soft.Web
 build_property.ProjectDir = /Users/maksimp/Documents/Blasor/Soft/Movie/Server/
@@ -29,6 +21,10 @@ build_property.MSBuildProjectDirectory = /Users/maksimp/Documents/Blasor/Soft/Mo
 build_property._RazorSourceGeneratorDebug = 
 build_property.EffectiveAnalysisLevelStyle = 10.0
 build_property.EnableCodeStyleSeverity = 
+
+[/Users/maksimp/Documents/Blasor/Soft/Movie/Server/App.razor]
+build_metadata.AdditionalFiles.TargetPath = QXBwLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
 
 [/Users/maksimp/Documents/Blasor/Soft/Movie/Server/Components/Account/Pages/AccessDenied.razor]
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50cy9BY2NvdW50L1BhZ2VzL0FjY2Vzc0RlbmllZC5yYXpvcg==
@@ -186,118 +182,114 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50cy9BY2NvdW50L1NoYXJlZC9TdGF0dXNNZXNzYWdlLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/maksimp/Documents/Blasor/Soft/Movie/Server/Components/App.razor]
-build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50cy9BcHAucmF6b3I=
+[/Users/maksimp/Documents/Blasor/Soft/Movie/Server/Pages/CountryCurrency/Create.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvQ291bnRyeUN1cnJlbmN5L0NyZWF0ZS5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/maksimp/Documents/Blasor/Soft/Movie/Server/Components/Pages/CountryCurrencyPages/Create.razor]
-build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50cy9QYWdlcy9Db3VudHJ5Q3VycmVuY3lQYWdlcy9DcmVhdGUucmF6b3I=
+[/Users/maksimp/Documents/Blasor/Soft/Movie/Server/Pages/CountryCurrency/Delete.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvQ291bnRyeUN1cnJlbmN5L0RlbGV0ZS5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/maksimp/Documents/Blasor/Soft/Movie/Server/Components/Pages/CountryCurrencyPages/Delete.razor]
-build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50cy9QYWdlcy9Db3VudHJ5Q3VycmVuY3lQYWdlcy9EZWxldGUucmF6b3I=
+[/Users/maksimp/Documents/Blasor/Soft/Movie/Server/Pages/CountryCurrency/Details.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvQ291bnRyeUN1cnJlbmN5L0RldGFpbHMucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/maksimp/Documents/Blasor/Soft/Movie/Server/Components/Pages/CountryCurrencyPages/Details.razor]
-build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50cy9QYWdlcy9Db3VudHJ5Q3VycmVuY3lQYWdlcy9EZXRhaWxzLnJhem9y
+[/Users/maksimp/Documents/Blasor/Soft/Movie/Server/Pages/CountryCurrency/Edit.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvQ291bnRyeUN1cnJlbmN5L0VkaXQucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/maksimp/Documents/Blasor/Soft/Movie/Server/Components/Pages/CountryCurrencyPages/Edit.razor]
-build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50cy9QYWdlcy9Db3VudHJ5Q3VycmVuY3lQYWdlcy9FZGl0LnJhem9y
+[/Users/maksimp/Documents/Blasor/Soft/Movie/Server/Pages/CountryCurrency/Index.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvQ291bnRyeUN1cnJlbmN5L0luZGV4LnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/maksimp/Documents/Blasor/Soft/Movie/Server/Components/Pages/CountryCurrencyPages/Index.razor]
-build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50cy9QYWdlcy9Db3VudHJ5Q3VycmVuY3lQYWdlcy9JbmRleC5yYXpvcg==
+[/Users/maksimp/Documents/Blasor/Soft/Movie/Server/Pages/CountryPages/Create.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvQ291bnRyeVBhZ2VzL0NyZWF0ZS5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/maksimp/Documents/Blasor/Soft/Movie/Server/Components/Pages/CountryPages/Create.razor]
-build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50cy9QYWdlcy9Db3VudHJ5UGFnZXMvQ3JlYXRlLnJhem9y
+[/Users/maksimp/Documents/Blasor/Soft/Movie/Server/Pages/CountryPages/Delete.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvQ291bnRyeVBhZ2VzL0RlbGV0ZS5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/maksimp/Documents/Blasor/Soft/Movie/Server/Components/Pages/CountryPages/Delete.razor]
-build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50cy9QYWdlcy9Db3VudHJ5UGFnZXMvRGVsZXRlLnJhem9y
+[/Users/maksimp/Documents/Blasor/Soft/Movie/Server/Pages/CountryPages/Details.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvQ291bnRyeVBhZ2VzL0RldGFpbHMucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/maksimp/Documents/Blasor/Soft/Movie/Server/Components/Pages/CountryPages/Details.razor]
-build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50cy9QYWdlcy9Db3VudHJ5UGFnZXMvRGV0YWlscy5yYXpvcg==
+[/Users/maksimp/Documents/Blasor/Soft/Movie/Server/Pages/CountryPages/Edit.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvQ291bnRyeVBhZ2VzL0VkaXQucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/maksimp/Documents/Blasor/Soft/Movie/Server/Components/Pages/CountryPages/Edit.razor]
-build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50cy9QYWdlcy9Db3VudHJ5UGFnZXMvRWRpdC5yYXpvcg==
+[/Users/maksimp/Documents/Blasor/Soft/Movie/Server/Pages/CountryPages/Index.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvQ291bnRyeVBhZ2VzL0luZGV4LnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/maksimp/Documents/Blasor/Soft/Movie/Server/Components/Pages/CountryPages/Index.razor]
-build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50cy9QYWdlcy9Db3VudHJ5UGFnZXMvSW5kZXgucmF6b3I=
+[/Users/maksimp/Documents/Blasor/Soft/Movie/Server/Pages/CurrencyPages/Create.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvQ3VycmVuY3lQYWdlcy9DcmVhdGUucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/maksimp/Documents/Blasor/Soft/Movie/Server/Components/Pages/CurrencyPages/Create.razor]
-build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50cy9QYWdlcy9DdXJyZW5jeVBhZ2VzL0NyZWF0ZS5yYXpvcg==
+[/Users/maksimp/Documents/Blasor/Soft/Movie/Server/Pages/CurrencyPages/Delete.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvQ3VycmVuY3lQYWdlcy9EZWxldGUucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/maksimp/Documents/Blasor/Soft/Movie/Server/Components/Pages/CurrencyPages/Delete.razor]
-build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50cy9QYWdlcy9DdXJyZW5jeVBhZ2VzL0RlbGV0ZS5yYXpvcg==
+[/Users/maksimp/Documents/Blasor/Soft/Movie/Server/Pages/CurrencyPages/Details.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvQ3VycmVuY3lQYWdlcy9EZXRhaWxzLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/maksimp/Documents/Blasor/Soft/Movie/Server/Components/Pages/CurrencyPages/Details.razor]
-build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50cy9QYWdlcy9DdXJyZW5jeVBhZ2VzL0RldGFpbHMucmF6b3I=
+[/Users/maksimp/Documents/Blasor/Soft/Movie/Server/Pages/CurrencyPages/Edit.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvQ3VycmVuY3lQYWdlcy9FZGl0LnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/maksimp/Documents/Blasor/Soft/Movie/Server/Components/Pages/CurrencyPages/Edit.razor]
-build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50cy9QYWdlcy9DdXJyZW5jeVBhZ2VzL0VkaXQucmF6b3I=
+[/Users/maksimp/Documents/Blasor/Soft/Movie/Server/Pages/CurrencyPages/Index.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvQ3VycmVuY3lQYWdlcy9JbmRleC5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/maksimp/Documents/Blasor/Soft/Movie/Server/Components/Pages/CurrencyPages/Index.razor]
-build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50cy9QYWdlcy9DdXJyZW5jeVBhZ2VzL0luZGV4LnJhem9y
+[/Users/maksimp/Documents/Blasor/Soft/Movie/Server/Pages/Error.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvRXJyb3IucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/maksimp/Documents/Blasor/Soft/Movie/Server/Components/Pages/Error.razor]
-build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50cy9QYWdlcy9FcnJvci5yYXpvcg==
+[/Users/maksimp/Documents/Blasor/Soft/Movie/Server/Pages/MoneyPages/Create.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvTW9uZXlQYWdlcy9DcmVhdGUucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/maksimp/Documents/Blasor/Soft/Movie/Server/Components/Pages/MoneyPages/Create.razor]
-build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50cy9QYWdlcy9Nb25leVBhZ2VzL0NyZWF0ZS5yYXpvcg==
+[/Users/maksimp/Documents/Blasor/Soft/Movie/Server/Pages/MoneyPages/Delete.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvTW9uZXlQYWdlcy9EZWxldGUucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/maksimp/Documents/Blasor/Soft/Movie/Server/Components/Pages/MoneyPages/Delete.razor]
-build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50cy9QYWdlcy9Nb25leVBhZ2VzL0RlbGV0ZS5yYXpvcg==
+[/Users/maksimp/Documents/Blasor/Soft/Movie/Server/Pages/MoneyPages/Details.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvTW9uZXlQYWdlcy9EZXRhaWxzLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/maksimp/Documents/Blasor/Soft/Movie/Server/Components/Pages/MoneyPages/Details.razor]
-build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50cy9QYWdlcy9Nb25leVBhZ2VzL0RldGFpbHMucmF6b3I=
+[/Users/maksimp/Documents/Blasor/Soft/Movie/Server/Pages/MoneyPages/Edit.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvTW9uZXlQYWdlcy9FZGl0LnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/maksimp/Documents/Blasor/Soft/Movie/Server/Components/Pages/MoneyPages/Edit.razor]
-build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50cy9QYWdlcy9Nb25leVBhZ2VzL0VkaXQucmF6b3I=
+[/Users/maksimp/Documents/Blasor/Soft/Movie/Server/Pages/MoneyPages/Index.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvTW9uZXlQYWdlcy9JbmRleC5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/maksimp/Documents/Blasor/Soft/Movie/Server/Components/Pages/MoneyPages/Index.razor]
-build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50cy9QYWdlcy9Nb25leVBhZ2VzL0luZGV4LnJhem9y
+[/Users/maksimp/Documents/Blasor/Soft/Movie/Server/Pages/MoviePages/Create.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvTW92aWVQYWdlcy9DcmVhdGUucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/maksimp/Documents/Blasor/Soft/Movie/Server/Components/Pages/MoviePages/Create.razor]
-build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50cy9QYWdlcy9Nb3ZpZVBhZ2VzL0NyZWF0ZS5yYXpvcg==
+[/Users/maksimp/Documents/Blasor/Soft/Movie/Server/Pages/MoviePages/Delete.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvTW92aWVQYWdlcy9EZWxldGUucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/maksimp/Documents/Blasor/Soft/Movie/Server/Components/Pages/MoviePages/Delete.razor]
-build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50cy9QYWdlcy9Nb3ZpZVBhZ2VzL0RlbGV0ZS5yYXpvcg==
+[/Users/maksimp/Documents/Blasor/Soft/Movie/Server/Pages/MoviePages/Details.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvTW92aWVQYWdlcy9EZXRhaWxzLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/maksimp/Documents/Blasor/Soft/Movie/Server/Components/Pages/MoviePages/Details.razor]
-build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50cy9QYWdlcy9Nb3ZpZVBhZ2VzL0RldGFpbHMucmF6b3I=
+[/Users/maksimp/Documents/Blasor/Soft/Movie/Server/Pages/MoviePages/Edit.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvTW92aWVQYWdlcy9FZGl0LnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/maksimp/Documents/Blasor/Soft/Movie/Server/Components/Pages/MoviePages/Edit.razor]
-build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50cy9QYWdlcy9Nb3ZpZVBhZ2VzL0VkaXQucmF6b3I=
+[/Users/maksimp/Documents/Blasor/Soft/Movie/Server/Pages/MoviePages/Index.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvTW92aWVQYWdlcy9JbmRleC5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/maksimp/Documents/Blasor/Soft/Movie/Server/Components/Pages/MoviePages/Index.razor]
-build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50cy9QYWdlcy9Nb3ZpZVBhZ2VzL0luZGV4LnJhem9y
+[/Users/maksimp/Documents/Blasor/Soft/Movie/Server/Pages/NotFound.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvTm90Rm91bmQucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/maksimp/Documents/Blasor/Soft/Movie/Server/Components/Pages/NotFound.razor]
-build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50cy9QYWdlcy9Ob3RGb3VuZC5yYXpvcg==
-build_metadata.AdditionalFiles.CssScope = 
-
-[/Users/maksimp/Documents/Blasor/Soft/Movie/Server/Components/_Imports.razor]
-build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50cy9fSW1wb3J0cy5yYXpvcg==
+[/Users/maksimp/Documents/Blasor/Soft/Movie/Server/_Imports.razor]
+build_metadata.AdditionalFiles.TargetPath = X0ltcG9ydHMucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 

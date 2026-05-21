@@ -1,5 +1,4 @@
 /Users/maksimp/Documents/Blasor/Code/Infra/bin/Debug/net10.0/Abc.Infra.deps.json
-/Users/maksimp/Documents/Blasor/Code/Infra/bin/Debug/net10.0/Abc.Infra.runtimeconfig.json
 /Users/maksimp/Documents/Blasor/Code/Infra/bin/Debug/net10.0/Abc.Infra.dll
 /Users/maksimp/Documents/Blasor/Code/Infra/bin/Debug/net10.0/Abc.Infra.pdb
 /Users/maksimp/Documents/Blasor/Code/Infra/bin/Debug/net10.0/Abc.Aids.dll
@@ -18,5 +17,4 @@
 /Users/maksimp/Documents/Blasor/Code/Infra/obj/Debug/net10.0/Abc.Infra.dll
 /Users/maksimp/Documents/Blasor/Code/Infra/obj/Debug/net10.0/refint/Abc.Infra.dll
 /Users/maksimp/Documents/Blasor/Code/Infra/obj/Debug/net10.0/Abc.Infra.pdb
-/Users/maksimp/Documents/Blasor/Code/Infra/obj/Debug/net10.0/Infra.genruntimeconfig.cache
 /Users/maksimp/Documents/Blasor/Code/Infra/obj/Debug/net10.0/ref/Abc.Infra.dll

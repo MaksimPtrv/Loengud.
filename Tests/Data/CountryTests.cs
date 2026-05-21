@@ -1,7 +1,5 @@
-using Abc.Data;
+﻿using Abc.Data;
 using Abc.Tests.Aids;
+namespace Abc.Tests.Data;
 
-namespace Tests.Data;
-
-[TestClass]
-public sealed class CountryTests : BaseTests<Country> { }
+[TestClass] public sealed class CountryTests: BaseTests<Country> {}
