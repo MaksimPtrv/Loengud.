@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Abc.Infra")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+87aaf1a9f89e14041957a47ac00af3b4ad3d0a03")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+68ca6835f4576253452ccd28ecd3a105bf50fdc7")]
 [assembly: System.Reflection.AssemblyProductAttribute("Abc.Infra")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Abc.Infra")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
