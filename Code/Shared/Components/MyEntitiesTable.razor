@@ -10,21 +10,26 @@
 <QuickGrid Class="table myTable" Items="Entities">
         @foreach (var p in typeof(TEntity).GetProperties()) {
             @if (!show(p)) continue;
-          
-@*         
-            <TemplateColumn Title="@p.Name" Context="y">
-                @(value(p, y))
+            <TemplateColumn>
+                <HeaderTemplate>
+                <div class="header-stack">
+                    <a href="@headerHref(p.Name)">@iconed(p.Name)</a>
+                    <form method="get" action="@BasePath">
+                        <input type="hidden" name="@nameof(Query.SortDir)" value="@query.SortDir" />
+                        <input type="hidden" name="@nameof(Query.PageSize)" value="@query.PageSize" />
+                        <input type="hidden" name="@nameof(Query.Page)" value="1" />
+                        <input type="hidden" name="@nameof(Query.SortBy)" value="@query.SortBy" />
+                        <input type="hidden" name="@nameof(Query.SearchBy)" value="@p.Name" />
+                        <input type="search" class="form-control form-control-sm" 
+                               name="@nameof(Query.SearchStr)" value="@searchStr(p.Name)" disabled="@isDisabled(p)" placeholder="Search..." />
+                    </form>
+                </div>
+                </HeaderTemplate>
+                <ChildContent Context="y">
+                    @(value(p, y))
+                </ChildContent>
             </TemplateColumn>
-*@
-        <TemplateColumn>
-            <HeaderTemplate>
-                <a href="@headerHref(p.Name)">@iconed(p.Name)</a>
-            </HeaderTemplate>
-            <ChildContent Context="y">
-                @(value(p, y))
-            </ChildContent>
-        </TemplateColumn>
-    }
+        }
         <TemplateColumn Context="y">
             <a href="@($"{BasePath}/edit?id={y.Id}")">Edit</a> |
             <a href="@($"{BasePath}/details?id={y.Id}")">Details</a> |
@@ -42,10 +47,10 @@
     [Inject] private NavigationManager nav { get; set; }
     private int totalCount;
     private Query query;
-    private string icon => query?.SortDir == "asc" ? " ▲"
-    : query?.SortDir == "desc" ? " ▼" : string.Empty;
-    private string iconed(string name) =>
-        (query?.SortBy == name) ? name + icon : name;
+    private string icon => query?.SortDir == "asc" ? " ▲" : query?.SortDir == "desc" ? " ▼" : string.Empty;
+    private string iconed(string name) => (query?.SortBy == name)?  name + icon: name;
+    private string searchStr(string name) => (query?.SearchBy == name) ? query.SearchStr : "";
+    private bool isDisabled(PropertyInfo p) => p?.PropertyType != typeof(string);
     protected override async Task OnInitializedAsync() {
         if (Repo is null) return;
         var uri = nav.ToAbsoluteUri(nav.Uri);
@@ -67,12 +72,15 @@
         return true;
     }
     private string headerHref(string name) {
-    var n = ((query?.SortBy == name) && (query?.SortDir == "desc")) ? null : name;
-    var d = query?.SortBy != name ? "asc" : "desc";
-    var r = $"{BasePath}?Page=1&PageSize={query?.PageSize ?? 7}";
-    return (n is null) ? r : r + $"&SortBy={n}&SortDir={d}";
+        var n = ((query?.SortBy == name) && (query?.SortDir == "desc")) ? null : name;
+        var d = query?.SortBy != name ? "asc" : "desc";
+        var r = $"{BasePath}?Page=1&PageSize={query?.PageSize ?? 7}";
+        
+        r = string.IsNullOrEmpty(query?.SearchStr)
+            ? r : r += $"&SearchBy={query.SearchBy}&SearchStr={query.SearchStr}";
+
+        return (n is null) ? r  : r + $"&SortBy={n}&SortDir={d}";
     }
-    
 }
 
 <style>
