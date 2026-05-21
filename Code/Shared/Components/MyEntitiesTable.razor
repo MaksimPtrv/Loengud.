@@ -18,7 +18,7 @@
 *@
         <TemplateColumn>
             <HeaderTemplate>
-                <a href="@headerHref(p.Name)">@p.Name</a>
+                <a href="@headerHref(p.Name)">@iconed(p.Name)</a>
             </HeaderTemplate>
             <ChildContent Context="y">
                 @(value(p, y))
@@ -42,6 +42,10 @@
     [Inject] private NavigationManager nav { get; set; }
     private int totalCount;
     private Query query;
+    private string icon => query?.SortDir == "asc" ? " ▲"
+    : query?.SortDir == "desc" ? " ▼" : string.Empty;
+    private string iconed(string name) =>
+        (query?.SortBy == name) ? name + icon : name;
     protected override async Task OnInitializedAsync() {
         if (Repo is null) return;
         var uri = nav.ToAbsoluteUri(nav.Uri);
@@ -62,9 +66,12 @@
         if (t.IsClass) return false;
         return true;
     }
-    private string headerHref(string columnName) =>
-    $"{BasePath}?SortBy={columnName}&Page=1&PageSize={query?.PageSize ?? 7}";
-
+    private string headerHref(string name) {
+    var n = ((query?.SortBy == name) && (query?.SortDir == "desc")) ? null : name;
+    var d = query?.SortBy != name ? "asc" : "desc";
+    var r = $"{BasePath}?Page=1&PageSize={query?.PageSize ?? 7}";
+    return (n is null) ? r : r + $"&SortBy={n}&SortDir={d}";
+    }
     
 }
 
