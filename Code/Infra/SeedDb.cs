@@ -7,25 +7,21 @@ namespace Abc.Infra;
 public sealed class SeedDb(ApplicationDbContext db, int recCnt = 20) {
     public async Task Seed() {
         await db.Database.MigrateAsync();
-
         await seedTable(db.Currencies, [
             nameof(Currency.Timestamp)]);
-        
         await seedTable(db.Countries, [
             nameof(Country.Currencies), 
             nameof(Country.Timestamp)]);
-        
         await seedTable(db.Money, [
             nameof(Money.CurrencyId), 
             nameof(Money.Currency), 
             nameof(Money.Timestamp)]);
-        
         await seedTable(db.CountryCurrencies, [
             nameof(CountryCurrency.CurrencyId), 
             nameof(CountryCurrency.CountryId), 
-            nameof(CountryCurrency.Currency), 
+            nameof(CountryCurrency.Currency),
+            nameof(CountryCurrency.Country),
             nameof(CountryCurrency.Timestamp)]);
-        
         await seedTable(db.Movies, [
             nameof(Movie.Country), 
             nameof(Movie.Money), 

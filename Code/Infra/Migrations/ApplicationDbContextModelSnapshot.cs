@@ -434,13 +434,15 @@ namespace Abc.Infra.Migrations
 
             modelBuilder.Entity("Abc.Data.CountryCurrency", b =>
                 {
-                    b.HasOne("Abc.Data.Country", null)
+                    b.HasOne("Abc.Data.Country", "Country")
                         .WithMany("Currencies")
                         .HasForeignKey("CountryId");
 
                     b.HasOne("Abc.Data.Currency", "Currency")
                         .WithMany()
                         .HasForeignKey("CurrencyId");
+
+                    b.Navigation("Country");
 
                     b.Navigation("Currency");
                 });

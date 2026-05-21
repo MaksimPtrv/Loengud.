@@ -209,8 +209,6 @@
 /Users/maksimp/Documents/Blasor/Soft/Blazor/Client/bin/Debug/net10.0/wwwroot/_framework/icudt_CJK.tjcz0u77k5.dat
 /Users/maksimp/Documents/Blasor/Soft/Blazor/Client/bin/Debug/net10.0/wwwroot/_framework/icudt_EFIGS.tptq2av103.dat
 /Users/maksimp/Documents/Blasor/Soft/Blazor/Client/bin/Debug/net10.0/wwwroot/_framework/icudt_no_CJK.lfu7j35m59.dat
-/Users/maksimp/Documents/Blasor/Soft/Blazor/Client/bin/Debug/net10.0/wwwroot/_framework/Abc.Soft.Web.Client.vx7ws7irk8.wasm
-/Users/maksimp/Documents/Blasor/Soft/Blazor/Client/bin/Debug/net10.0/wwwroot/_framework/Abc.Soft.Web.Client.mc2y1zt5wv.pdb
 /Users/maksimp/Documents/Blasor/Soft/Blazor/Client/bin/Debug/net10.0/wwwroot/_framework/dotnet.js
 /Users/maksimp/Documents/Blasor/Soft/Blazor/Client/bin/Debug/net10.0/wwwroot/_framework/blazor.webassembly.js.gz
 /Users/maksimp/Documents/Blasor/Soft/Blazor/Client/bin/Debug/net10.0/wwwroot/_framework/Microsoft.AspNetCore.Authorization.s5zxhf8cpw.wasm.gz
@@ -422,8 +420,6 @@
 /Users/maksimp/Documents/Blasor/Soft/Blazor/Client/bin/Debug/net10.0/wwwroot/_framework/icudt_CJK.tjcz0u77k5.dat.gz
 /Users/maksimp/Documents/Blasor/Soft/Blazor/Client/bin/Debug/net10.0/wwwroot/_framework/icudt_EFIGS.tptq2av103.dat.gz
 /Users/maksimp/Documents/Blasor/Soft/Blazor/Client/bin/Debug/net10.0/wwwroot/_framework/icudt_no_CJK.lfu7j35m59.dat.gz
-/Users/maksimp/Documents/Blasor/Soft/Blazor/Client/bin/Debug/net10.0/wwwroot/_framework/Abc.Soft.Web.Client.vx7ws7irk8.wasm.gz
-/Users/maksimp/Documents/Blasor/Soft/Blazor/Client/bin/Debug/net10.0/wwwroot/_framework/Abc.Soft.Web.Client.mc2y1zt5wv.pdb.gz
 /Users/maksimp/Documents/Blasor/Soft/Blazor/Client/bin/Debug/net10.0/wwwroot/_framework/dotnet.js.gz
 /Users/maksimp/Documents/Blasor/Soft/Blazor/Client/bin/Debug/net10.0/Abc.Soft.Web.Client.staticwebassets.runtime.json
 /Users/maksimp/Documents/Blasor/Soft/Blazor/Client/bin/Debug/net10.0/Abc.Soft.Web.Client.staticwebassets.endpoints.json
@@ -1077,9 +1073,6 @@
 /Users/maksimp/Documents/Blasor/Soft/Blazor/Client/obj/Debug/net10.0/compressed/64m8o0j9p1-{0}-tjcz0u77k5-tjcz0u77k5.gz
 /Users/maksimp/Documents/Blasor/Soft/Blazor/Client/obj/Debug/net10.0/compressed/3fa8ltofhr-{0}-tptq2av103-tptq2av103.gz
 /Users/maksimp/Documents/Blasor/Soft/Blazor/Client/obj/Debug/net10.0/compressed/f4mj5r6gsu-{0}-lfu7j35m59-lfu7j35m59.gz
-/Users/maksimp/Documents/Blasor/Soft/Blazor/Client/obj/Debug/net10.0/compressed/zobyftkwxq-{0}-vx7ws7irk8-vx7ws7irk8.gz
-/Users/maksimp/Documents/Blasor/Soft/Blazor/Client/obj/Debug/net10.0/compressed/9x1rw4usig-{0}-mc2y1zt5wv-mc2y1zt5wv.gz
-/Users/maksimp/Documents/Blasor/Soft/Blazor/Client/obj/Debug/net10.0/compressed/ci2rkmt6e1-{0}-0r6bqj2mof-0r6bqj2mof.gz
 /Users/maksimp/Documents/Blasor/Soft/Blazor/Client/obj/Debug/net10.0/staticwebassets.build.json
 /Users/maksimp/Documents/Blasor/Soft/Blazor/Client/obj/Debug/net10.0/staticwebassets.build.json.cache
 /Users/maksimp/Documents/Blasor/Soft/Blazor/Client/obj/Debug/net10.0/staticwebassets.development.json
@@ -1090,3 +1083,10 @@
 /Users/maksimp/Documents/Blasor/Soft/Blazor/Client/obj/Debug/net10.0/refint/Abc.Soft.Web.Client.dll
 /Users/maksimp/Documents/Blasor/Soft/Blazor/Client/obj/Debug/net10.0/Abc.Soft.Web.Client.pdb
 /Users/maksimp/Documents/Blasor/Soft/Blazor/Client/obj/Debug/net10.0/ref/Abc.Soft.Web.Client.dll
+/Users/maksimp/Documents/Blasor/Soft/Blazor/Client/bin/Debug/net10.0/wwwroot/_framework/Abc.Soft.Web.Client.v9rkopxh8q.wasm
+/Users/maksimp/Documents/Blasor/Soft/Blazor/Client/bin/Debug/net10.0/wwwroot/_framework/Abc.Soft.Web.Client.xyzjs34eej.pdb
+/Users/maksimp/Documents/Blasor/Soft/Blazor/Client/bin/Debug/net10.0/wwwroot/_framework/Abc.Soft.Web.Client.v9rkopxh8q.wasm.gz
+/Users/maksimp/Documents/Blasor/Soft/Blazor/Client/bin/Debug/net10.0/wwwroot/_framework/Abc.Soft.Web.Client.xyzjs34eej.pdb.gz
+/Users/maksimp/Documents/Blasor/Soft/Blazor/Client/obj/Debug/net10.0/compressed/zobyftkwxq-{0}-v9rkopxh8q-v9rkopxh8q.gz
+/Users/maksimp/Documents/Blasor/Soft/Blazor/Client/obj/Debug/net10.0/compressed/9x1rw4usig-{0}-xyzjs34eej-xyzjs34eej.gz
+/Users/maksimp/Documents/Blasor/Soft/Blazor/Client/obj/Debug/net10.0/compressed/ci2rkmt6e1-{0}-cpcmhn1v3b-cpcmhn1v3b.gz
