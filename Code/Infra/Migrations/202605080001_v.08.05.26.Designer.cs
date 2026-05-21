@@ -3,6 +3,7 @@ using System;
 using Abc.Infra;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 
 #nullable disable
@@ -10,9 +11,11 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace Abc.Infra.Migrations
 {
     [DbContext(typeof(ApplicationDbContext))]
-    partial class ApplicationDbContextModelSnapshot : ModelSnapshot
+    [Migration("202605080001_v.08.05.26")]
+    partial class v130426
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        /// <inheritdoc />
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder.HasAnnotation("ProductVersion", "10.0.5");
@@ -104,9 +107,6 @@ namespace Abc.Infra.Migrations
                     b.Property<string>("Code")
                         .HasColumnType("TEXT");
 
-                    b.Property<Guid?>("CountryId")
-                        .HasColumnType("TEXT");
-
                     b.Property<string>("Details")
                         .HasColumnType("TEXT");
 
@@ -141,8 +141,6 @@ namespace Abc.Infra.Migrations
 
                     b.HasKey("Id");
 
-                    b.HasIndex("CountryId");
-
                     b.ToTable("Currencies");
                 });
 
@@ -153,7 +151,7 @@ namespace Abc.Infra.Migrations
                         .HasColumnType("TEXT");
 
                     b.Property<decimal>("Amount")
-                        .HasColumnType("decimal(18, 2)");
+                        .HasColumnType("TEXT");
 
                     b.Property<Guid?>("CurrencyId")
                         .HasColumnType("TEXT");
@@ -440,7 +438,7 @@ namespace Abc.Infra.Migrations
             modelBuilder.Entity("Abc.Data.CountryCurrency", b =>
                 {
                     b.HasOne("Abc.Data.Country", "Country")
-                        .WithMany("CountryCurrencies")
+                        .WithMany("Currencies")
                         .HasForeignKey("CountryId");
 
                     b.HasOne("Abc.Data.Currency", "Currency")
@@ -450,13 +448,6 @@ namespace Abc.Infra.Migrations
                     b.Navigation("Country");
 
                     b.Navigation("Currency");
-                });
-
-            modelBuilder.Entity("Abc.Data.Currency", b =>
-                {
-                    b.HasOne("Abc.Data.Country", null)
-                        .WithMany("Currencies")
-                        .HasForeignKey("CountryId");
                 });
 
             modelBuilder.Entity("Abc.Data.Money", b =>
@@ -587,8 +578,6 @@ namespace Abc.Infra.Migrations
 
             modelBuilder.Entity("Abc.Data.Country", b =>
                 {
-                    b.Navigation("CountryCurrencies");
-
                     b.Navigation("Currencies");
                 });
 #pragma warning restore 612, 618

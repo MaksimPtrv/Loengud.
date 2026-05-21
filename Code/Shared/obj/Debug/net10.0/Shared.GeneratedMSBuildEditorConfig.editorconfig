@@ -22,6 +22,10 @@ build_property._RazorSourceGeneratorDebug =
 build_property.EffectiveAnalysisLevelStyle = 10.0
 build_property.EnableCodeStyleSeverity = 
 
+[/Users/maksimp/Documents/Blasor/Code/Shared/Components/MyEntitiesSelect.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50cy9NeUVudGl0aWVzU2VsZWN0LnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
 [/Users/maksimp/Documents/Blasor/Code/Shared/Components/MyEntitiesTable.razor]
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50cy9NeUVudGl0aWVzVGFibGUucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
@@ -42,8 +46,20 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50cy9NeVByb3BlcnR5Vmlld2VyLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
+[/Users/maksimp/Documents/Blasor/Code/Shared/Components/MyQuickGrid.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50cy9NeVF1aWNrR3JpZC5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/maksimp/Documents/Blasor/Code/Shared/Components/MyTableHeader.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50cy9NeVRhYmxlSGVhZGVyLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
 [/Users/maksimp/Documents/Blasor/Code/Shared/Components/MyTablePageNav.razor]
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50cy9NeVRhYmxlUGFnZU5hdi5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/maksimp/Documents/Blasor/Code/Shared/Components/MyTableRowButtons.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50cy9NeVRhYmxlUm93QnV0dG9ucy5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
 [/Users/maksimp/Documents/Blasor/Code/Shared/Pages/MyCreatePage.razor]

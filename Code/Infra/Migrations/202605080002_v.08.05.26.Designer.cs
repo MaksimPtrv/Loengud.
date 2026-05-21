@@ -11,8 +11,8 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace Abc.Infra.Migrations
 {
     [DbContext(typeof(ApplicationDbContext))]
-    [Migration("20260413113503_v.13.04.26")]
-    partial class v130426
+    [Migration("202605080002_v.08.05.26")]
+    partial class v190426
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -107,6 +107,9 @@ namespace Abc.Infra.Migrations
                     b.Property<string>("Code")
                         .HasColumnType("TEXT");
 
+                    b.Property<Guid?>("CountryId")
+                        .HasColumnType("TEXT");
+
                     b.Property<string>("Details")
                         .HasColumnType("TEXT");
 
@@ -141,6 +144,8 @@ namespace Abc.Infra.Migrations
 
                     b.HasKey("Id");
 
+                    b.HasIndex("CountryId");
+
                     b.ToTable("Currencies");
                 });
 
@@ -151,7 +156,7 @@ namespace Abc.Infra.Migrations
                         .HasColumnType("TEXT");
 
                     b.Property<decimal>("Amount")
-                        .HasColumnType("TEXT");
+                        .HasColumnType("decimal(18, 2)");
 
                     b.Property<Guid?>("CurrencyId")
                         .HasColumnType("TEXT");
@@ -438,7 +443,7 @@ namespace Abc.Infra.Migrations
             modelBuilder.Entity("Abc.Data.CountryCurrency", b =>
                 {
                     b.HasOne("Abc.Data.Country", "Country")
-                        .WithMany("Currencies")
+                        .WithMany("CountryCurrencies")
                         .HasForeignKey("CountryId");
 
                     b.HasOne("Abc.Data.Currency", "Currency")
@@ -448,6 +453,13 @@ namespace Abc.Infra.Migrations
                     b.Navigation("Country");
 
                     b.Navigation("Currency");
+                });
+
+            modelBuilder.Entity("Abc.Data.Currency", b =>
+                {
+                    b.HasOne("Abc.Data.Country", null)
+                        .WithMany("Currencies")
+                        .HasForeignKey("CountryId");
                 });
 
             modelBuilder.Entity("Abc.Data.Money", b =>
@@ -578,6 +590,8 @@ namespace Abc.Infra.Migrations
 
             modelBuilder.Entity("Abc.Data.Country", b =>
                 {
+                    b.Navigation("CountryCurrencies");
+
                     b.Navigation("Currencies");
                 });
 #pragma warning restore 612, 618
