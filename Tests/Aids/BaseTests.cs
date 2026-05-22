@@ -10,8 +10,8 @@ public abstract class BaseTests<TClass>: TestAids<TClass> where TClass : class, 
         var testMethods = GetType().GetMethods().Select(x => x.Name);
         var membersToTest = getProperties().Concat(getMethods());
         foreach (var m in membersToTest) {
-            if ( !testMethods.Contains(m + "Test"))
-                Assert.Inconclusive( $"{m} is not tested");
+            if (!testMethods.Contains(m + "Test"))
+                Assert.Inconclusive($"{m} is not tested");
         }
     }
 }

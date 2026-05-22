@@ -27,5 +27,6 @@
     <Project Path="Tests/Aids/Aids.csproj" />
     <Project Path="Tests/Data/Data.csproj" />
     <Project Path="Tests/Infra/Infra.csproj" />
+    <Project Path="Tests/Shared/Shared.csproj" Id="230ebd22-91b7-4930-9d1c-44690e9a7488" />
   </Folder>
 </Solution>
