@@ -1,7 +1,4 @@
 ﻿using Abc.Aids;
-using System;
-using System.Collections.Generic;
-using System.Text;
 
 namespace Abc.Tests.Aids;
 
