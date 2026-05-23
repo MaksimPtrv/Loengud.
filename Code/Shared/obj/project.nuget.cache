@@ -1,12 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "DKwaZyPOSgo=",
+  "dgSpecHash": "zi6tabX5AOM=",
   "success": true,
   "projectFilePath": "/Users/maksimp/Documents/Blasor/Code/Shared/Shared.csproj",
   "expectedPackageFiles": [
     "/Users/maksimp/.nuget/packages/microsoft.aspnetcore.authorization/10.0.5/microsoft.aspnetcore.authorization.10.0.5.nupkg.sha512",
     "/Users/maksimp/.nuget/packages/microsoft.aspnetcore.components/10.0.5/microsoft.aspnetcore.components.10.0.5.nupkg.sha512",
     "/Users/maksimp/.nuget/packages/microsoft.aspnetcore.components.analyzers/10.0.5/microsoft.aspnetcore.components.analyzers.10.0.5.nupkg.sha512",
+    "/Users/maksimp/.nuget/packages/microsoft.aspnetcore.components.authorization/10.0.5/microsoft.aspnetcore.components.authorization.10.0.5.nupkg.sha512",
     "/Users/maksimp/.nuget/packages/microsoft.aspnetcore.components.forms/10.0.5/microsoft.aspnetcore.components.forms.10.0.5.nupkg.sha512",
     "/Users/maksimp/.nuget/packages/microsoft.aspnetcore.components.quickgrid/10.0.5/microsoft.aspnetcore.components.quickgrid.10.0.5.nupkg.sha512",
     "/Users/maksimp/.nuget/packages/microsoft.aspnetcore.components.quickgrid.entityframeworkadapter/10.0.5/microsoft.aspnetcore.components.quickgrid.entityframeworkadapter.10.0.5.nupkg.sha512",

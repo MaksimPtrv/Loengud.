@@ -62,6 +62,122 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50cy9NeVRhYmxlUm93QnV0dG9ucy5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
+[/Users/maksimp/Documents/Blasor/Code/Shared/Pages/Auth.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvQXV0aC5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/maksimp/Documents/Blasor/Code/Shared/Pages/Counter.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvQ291bnRlci5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/maksimp/Documents/Blasor/Code/Shared/Pages/Countries/Create.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvQ291bnRyaWVzL0NyZWF0ZS5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/maksimp/Documents/Blasor/Code/Shared/Pages/Countries/Delete.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvQ291bnRyaWVzL0RlbGV0ZS5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/maksimp/Documents/Blasor/Code/Shared/Pages/Countries/Details.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvQ291bnRyaWVzL0RldGFpbHMucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/maksimp/Documents/Blasor/Code/Shared/Pages/Countries/Edit.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvQ291bnRyaWVzL0VkaXQucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/maksimp/Documents/Blasor/Code/Shared/Pages/Countries/Index.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvQ291bnRyaWVzL0luZGV4LnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/maksimp/Documents/Blasor/Code/Shared/Pages/CountryCurrency/Create.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvQ291bnRyeUN1cnJlbmN5L0NyZWF0ZS5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/maksimp/Documents/Blasor/Code/Shared/Pages/CountryCurrency/Delete.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvQ291bnRyeUN1cnJlbmN5L0RlbGV0ZS5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/maksimp/Documents/Blasor/Code/Shared/Pages/CountryCurrency/Details.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvQ291bnRyeUN1cnJlbmN5L0RldGFpbHMucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/maksimp/Documents/Blasor/Code/Shared/Pages/CountryCurrency/Edit.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvQ291bnRyeUN1cnJlbmN5L0VkaXQucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/maksimp/Documents/Blasor/Code/Shared/Pages/CountryCurrency/Index.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvQ291bnRyeUN1cnJlbmN5L0luZGV4LnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/maksimp/Documents/Blasor/Code/Shared/Pages/Currencies/Create.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvQ3VycmVuY2llcy9DcmVhdGUucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/maksimp/Documents/Blasor/Code/Shared/Pages/Currencies/Delete.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvQ3VycmVuY2llcy9EZWxldGUucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/maksimp/Documents/Blasor/Code/Shared/Pages/Currencies/Details.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvQ3VycmVuY2llcy9EZXRhaWxzLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/maksimp/Documents/Blasor/Code/Shared/Pages/Currencies/Edit.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvQ3VycmVuY2llcy9FZGl0LnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/maksimp/Documents/Blasor/Code/Shared/Pages/Currencies/Index.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvQ3VycmVuY2llcy9JbmRleC5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/maksimp/Documents/Blasor/Code/Shared/Pages/Error.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvRXJyb3IucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/maksimp/Documents/Blasor/Code/Shared/Pages/Home.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvSG9tZS5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/maksimp/Documents/Blasor/Code/Shared/Pages/Money/Create.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvTW9uZXkvQ3JlYXRlLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/maksimp/Documents/Blasor/Code/Shared/Pages/Money/Delete.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvTW9uZXkvRGVsZXRlLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/maksimp/Documents/Blasor/Code/Shared/Pages/Money/Details.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvTW9uZXkvRGV0YWlscy5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/maksimp/Documents/Blasor/Code/Shared/Pages/Money/Edit.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvTW9uZXkvRWRpdC5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/maksimp/Documents/Blasor/Code/Shared/Pages/Money/Index.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvTW9uZXkvSW5kZXgucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/maksimp/Documents/Blasor/Code/Shared/Pages/Movies/Create.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvTW92aWVzL0NyZWF0ZS5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/maksimp/Documents/Blasor/Code/Shared/Pages/Movies/Delete.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvTW92aWVzL0RlbGV0ZS5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/maksimp/Documents/Blasor/Code/Shared/Pages/Movies/Details.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvTW92aWVzL0RldGFpbHMucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/maksimp/Documents/Blasor/Code/Shared/Pages/Movies/Edit.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvTW92aWVzL0VkaXQucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/maksimp/Documents/Blasor/Code/Shared/Pages/Movies/Index.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvTW92aWVzL0luZGV4LnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
 [/Users/maksimp/Documents/Blasor/Code/Shared/Pages/MyCreatePage.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXMvTXlDcmVhdGVQYWdlLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
@@ -80,6 +196,14 @@ build_metadata.AdditionalFiles.CssScope =
 
 [/Users/maksimp/Documents/Blasor/Code/Shared/Pages/MyIndexPage.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXMvTXlJbmRleFBhZ2UucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/maksimp/Documents/Blasor/Code/Shared/Pages/NotFound.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvTm90Rm91bmQucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/maksimp/Documents/Blasor/Code/Shared/Pages/Weather.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvV2VhdGhlci5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
 [/Users/maksimp/Documents/Blasor/Code/Shared/_Imports.razor]
