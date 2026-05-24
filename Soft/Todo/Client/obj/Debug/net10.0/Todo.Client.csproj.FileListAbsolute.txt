@@ -209,8 +209,6 @@
 /Users/maksimp/Documents/Blasor/Soft/Todo/Client/bin/Debug/net10.0/wwwroot/_framework/icudt_CJK.tjcz0u77k5.dat
 /Users/maksimp/Documents/Blasor/Soft/Todo/Client/bin/Debug/net10.0/wwwroot/_framework/icudt_EFIGS.tptq2av103.dat
 /Users/maksimp/Documents/Blasor/Soft/Todo/Client/bin/Debug/net10.0/wwwroot/_framework/icudt_no_CJK.lfu7j35m59.dat
-/Users/maksimp/Documents/Blasor/Soft/Todo/Client/bin/Debug/net10.0/wwwroot/_framework/Abc.Soft.Web.Client.cqinh1r2y6.wasm
-/Users/maksimp/Documents/Blasor/Soft/Todo/Client/bin/Debug/net10.0/wwwroot/_framework/Abc.Soft.Web.Client.d81j2nlm94.pdb
 /Users/maksimp/Documents/Blasor/Soft/Todo/Client/bin/Debug/net10.0/wwwroot/_framework/dotnet.js
 /Users/maksimp/Documents/Blasor/Soft/Todo/Client/bin/Debug/net10.0/wwwroot/_framework/blazor.webassembly.js.gz
 /Users/maksimp/Documents/Blasor/Soft/Todo/Client/bin/Debug/net10.0/wwwroot/_framework/Microsoft.AspNetCore.Authorization.s5zxhf8cpw.wasm.gz
@@ -422,8 +420,6 @@
 /Users/maksimp/Documents/Blasor/Soft/Todo/Client/bin/Debug/net10.0/wwwroot/_framework/icudt_CJK.tjcz0u77k5.dat.gz
 /Users/maksimp/Documents/Blasor/Soft/Todo/Client/bin/Debug/net10.0/wwwroot/_framework/icudt_EFIGS.tptq2av103.dat.gz
 /Users/maksimp/Documents/Blasor/Soft/Todo/Client/bin/Debug/net10.0/wwwroot/_framework/icudt_no_CJK.lfu7j35m59.dat.gz
-/Users/maksimp/Documents/Blasor/Soft/Todo/Client/bin/Debug/net10.0/wwwroot/_framework/Abc.Soft.Web.Client.cqinh1r2y6.wasm.gz
-/Users/maksimp/Documents/Blasor/Soft/Todo/Client/bin/Debug/net10.0/wwwroot/_framework/Abc.Soft.Web.Client.d81j2nlm94.pdb.gz
 /Users/maksimp/Documents/Blasor/Soft/Todo/Client/bin/Debug/net10.0/wwwroot/_framework/dotnet.js.gz
 /Users/maksimp/Documents/Blasor/Soft/Todo/Client/bin/Debug/net10.0/Abc.Soft.Web.Client.staticwebassets.runtime.json
 /Users/maksimp/Documents/Blasor/Soft/Todo/Client/bin/Debug/net10.0/Abc.Soft.Web.Client.staticwebassets.endpoints.json
@@ -1077,9 +1073,6 @@
 /Users/maksimp/Documents/Blasor/Soft/Todo/Client/obj/Debug/net10.0/compressed/64m8o0j9p1-{0}-tjcz0u77k5-tjcz0u77k5.gz
 /Users/maksimp/Documents/Blasor/Soft/Todo/Client/obj/Debug/net10.0/compressed/3fa8ltofhr-{0}-tptq2av103-tptq2av103.gz
 /Users/maksimp/Documents/Blasor/Soft/Todo/Client/obj/Debug/net10.0/compressed/f4mj5r6gsu-{0}-lfu7j35m59-lfu7j35m59.gz
-/Users/maksimp/Documents/Blasor/Soft/Todo/Client/obj/Debug/net10.0/compressed/zobyftkwxq-{0}-cqinh1r2y6-cqinh1r2y6.gz
-/Users/maksimp/Documents/Blasor/Soft/Todo/Client/obj/Debug/net10.0/compressed/9x1rw4usig-{0}-d81j2nlm94-d81j2nlm94.gz
-/Users/maksimp/Documents/Blasor/Soft/Todo/Client/obj/Debug/net10.0/compressed/ci2rkmt6e1-{0}-o09ftx94lg-o09ftx94lg.gz
 /Users/maksimp/Documents/Blasor/Soft/Todo/Client/obj/Debug/net10.0/staticwebassets.build.json
 /Users/maksimp/Documents/Blasor/Soft/Todo/Client/obj/Debug/net10.0/staticwebassets.build.json.cache
 /Users/maksimp/Documents/Blasor/Soft/Todo/Client/obj/Debug/net10.0/staticwebassets.development.json
@@ -1090,3 +1083,10 @@
 /Users/maksimp/Documents/Blasor/Soft/Todo/Client/obj/Debug/net10.0/refint/Abc.Soft.Web.Client.dll
 /Users/maksimp/Documents/Blasor/Soft/Todo/Client/obj/Debug/net10.0/Abc.Soft.Web.Client.pdb
 /Users/maksimp/Documents/Blasor/Soft/Todo/Client/obj/Debug/net10.0/ref/Abc.Soft.Web.Client.dll
+/Users/maksimp/Documents/Blasor/Soft/Todo/Client/bin/Debug/net10.0/wwwroot/_framework/Abc.Soft.Web.Client.njnn1on6hd.wasm
+/Users/maksimp/Documents/Blasor/Soft/Todo/Client/bin/Debug/net10.0/wwwroot/_framework/Abc.Soft.Web.Client.gpzd2egflz.pdb
+/Users/maksimp/Documents/Blasor/Soft/Todo/Client/bin/Debug/net10.0/wwwroot/_framework/Abc.Soft.Web.Client.njnn1on6hd.wasm.gz
+/Users/maksimp/Documents/Blasor/Soft/Todo/Client/bin/Debug/net10.0/wwwroot/_framework/Abc.Soft.Web.Client.gpzd2egflz.pdb.gz
+/Users/maksimp/Documents/Blasor/Soft/Todo/Client/obj/Debug/net10.0/compressed/zobyftkwxq-{0}-njnn1on6hd-njnn1on6hd.gz
+/Users/maksimp/Documents/Blasor/Soft/Todo/Client/obj/Debug/net10.0/compressed/9x1rw4usig-{0}-gpzd2egflz-gpzd2egflz.gz
+/Users/maksimp/Documents/Blasor/Soft/Todo/Client/obj/Debug/net10.0/compressed/ci2rkmt6e1-{0}-uexyjvjn2k-uexyjvjn2k.gz

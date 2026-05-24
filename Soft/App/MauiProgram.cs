@@ -1,6 +1,7 @@
 ﻿using Microsoft.Extensions.Logging;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Diagnostics;
+using MudBlazor.Services;
 using Abc.Infra;
 
 namespace Abc.Soft.App;
@@ -15,6 +16,7 @@ public static class MauiProgram {
             });
 
         builder.Services.AddMauiBlazorWebView();
+        builder.Services.AddMudServices();
 
         var dbPath = Path.Combine(FileSystem.AppDataDirectory, "abc-soft.db");
         var connectionString = $"Data Source={dbPath}";

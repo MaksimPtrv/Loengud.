@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "66of0YQqv3c=",
+  "dgSpecHash": "J27xq0i1bos=",
   "success": true,
   "projectFilePath": "/Users/maksimp/Documents/Blasor/Soft/Movie/Server/Movie.csproj",
   "expectedPackageFiles": [
@@ -34,6 +34,7 @@
     "/Users/maksimp/.nuget/packages/microsoft.jsinterop.webassembly/10.0.5/microsoft.jsinterop.webassembly.10.0.5.nupkg.sha512",
     "/Users/maksimp/.nuget/packages/microsoft.visualstudio.solutionpersistence/1.0.52/microsoft.visualstudio.solutionpersistence.1.0.52.nupkg.sha512",
     "/Users/maksimp/.nuget/packages/mono.texttemplating/3.0.0/mono.texttemplating.3.0.0.nupkg.sha512",
+    "/Users/maksimp/.nuget/packages/mudblazor/9.4.0/mudblazor.9.4.0.nupkg.sha512",
     "/Users/maksimp/.nuget/packages/newtonsoft.json/13.0.3/newtonsoft.json.13.0.3.nupkg.sha512",
     "/Users/maksimp/.nuget/packages/sqlitepclraw.bundle_e_sqlite3/2.1.11/sqlitepclraw.bundle_e_sqlite3.2.1.11.nupkg.sha512",
     "/Users/maksimp/.nuget/packages/sqlitepclraw.core/2.1.11/sqlitepclraw.core.2.1.11.nupkg.sha512",
