@@ -1,3 +1,9 @@
-﻿@using Abc.Shared.Components
+﻿@inherits LayoutComponentBase
 
-<SharedMainLayout />
+<Abc.Shared.Components.Layout.MainLayout Title="Maui" 
+      NavMenu="appNavMenu" Body="@Body" />
+
+@code {
+    private RenderFragment appNavMenu => 
+        @<Abc.Soft.App.Components.Layout.NavMenu />;
+}
