@@ -22,12 +22,12 @@
             <QuickGrid Class="table myTable" Items="items">
                 @foreach (var p in cols) {
                     @if (!MyGridAids.Show(p)) continue;
-                    <TemplateColumn>
+                    <Microsoft.AspNetCore.Components.QuickGrid.TemplateColumn>
                         <HeaderTemplate>@p.Name</HeaderTemplate>
                         <ChildContent Context="y">
                             @(MyGridAids.Value(p, y))
                         </ChildContent>
-                    </TemplateColumn>
+                    </Microsoft.AspNetCore.Components.QuickGrid.TemplateColumn>
                 }
             </QuickGrid>
         </div>

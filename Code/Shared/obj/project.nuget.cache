@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "zi6tabX5AOM=",
+  "dgSpecHash": "3Nxz5ijv8tY=",
   "success": true,
   "projectFilePath": "/Users/maksimp/Documents/Blasor/Code/Shared/Shared.csproj",
   "expectedPackageFiles": [
@@ -31,13 +31,16 @@
     "/Users/maksimp/.nuget/packages/microsoft.extensions.diagnostics.abstractions/10.0.5/microsoft.extensions.diagnostics.abstractions.10.0.5.nupkg.sha512",
     "/Users/maksimp/.nuget/packages/microsoft.extensions.identity.core/10.0.5/microsoft.extensions.identity.core.10.0.5.nupkg.sha512",
     "/Users/maksimp/.nuget/packages/microsoft.extensions.identity.stores/10.0.5/microsoft.extensions.identity.stores.10.0.5.nupkg.sha512",
+    "/Users/maksimp/.nuget/packages/microsoft.extensions.localization/10.0.1/microsoft.extensions.localization.10.0.1.nupkg.sha512",
+    "/Users/maksimp/.nuget/packages/microsoft.extensions.localization.abstractions/10.0.1/microsoft.extensions.localization.abstractions.10.0.1.nupkg.sha512",
     "/Users/maksimp/.nuget/packages/microsoft.extensions.logging/10.0.5/microsoft.extensions.logging.10.0.5.nupkg.sha512",
     "/Users/maksimp/.nuget/packages/microsoft.extensions.logging.abstractions/10.0.5/microsoft.extensions.logging.abstractions.10.0.5.nupkg.sha512",
     "/Users/maksimp/.nuget/packages/microsoft.extensions.options/10.0.5/microsoft.extensions.options.10.0.5.nupkg.sha512",
     "/Users/maksimp/.nuget/packages/microsoft.extensions.options.configurationextensions/10.0.5/microsoft.extensions.options.configurationextensions.10.0.5.nupkg.sha512",
     "/Users/maksimp/.nuget/packages/microsoft.extensions.primitives/10.0.5/microsoft.extensions.primitives.10.0.5.nupkg.sha512",
     "/Users/maksimp/.nuget/packages/microsoft.extensions.validation/10.0.5/microsoft.extensions.validation.10.0.5.nupkg.sha512",
-    "/Users/maksimp/.nuget/packages/microsoft.jsinterop/10.0.5/microsoft.jsinterop.10.0.5.nupkg.sha512"
+    "/Users/maksimp/.nuget/packages/microsoft.jsinterop/10.0.5/microsoft.jsinterop.10.0.5.nupkg.sha512",
+    "/Users/maksimp/.nuget/packages/mudblazor/9.4.0/mudblazor.9.4.0.nupkg.sha512"
   ],
   "logs": []
 }

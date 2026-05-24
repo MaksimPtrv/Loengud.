@@ -925,7 +925,8 @@
           "Abc.Jobs": "1.0.0",
           "Microsoft.AspNetCore.Components.Authorization": "10.0.5",
           "Microsoft.AspNetCore.Components.QuickGrid.EntityFrameworkAdapter": "10.0.5",
-          "Microsoft.AspNetCore.Components.Web": "10.0.5"
+          "Microsoft.AspNetCore.Components.Web": "10.0.5",
+          "MudBlazor": "9.4.0"
         },
         "compile": {
           "bin/placeholder/Abc.Shared.dll": {}
@@ -1859,7 +1860,8 @@
           "Abc.Jobs": "1.0.0",
           "Microsoft.AspNetCore.Components.Authorization": "10.0.5",
           "Microsoft.AspNetCore.Components.QuickGrid.EntityFrameworkAdapter": "10.0.5",
-          "Microsoft.AspNetCore.Components.Web": "10.0.5"
+          "Microsoft.AspNetCore.Components.Web": "10.0.5",
+          "MudBlazor": "9.4.0"
         },
         "compile": {
           "bin/placeholder/Abc.Shared.dll": {}

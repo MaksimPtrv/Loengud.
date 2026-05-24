@@ -1083,10 +1083,10 @@
 /Users/maksimp/Documents/Blasor/Soft/Todo/Client/obj/Debug/net10.0/refint/Abc.Soft.Web.Client.dll
 /Users/maksimp/Documents/Blasor/Soft/Todo/Client/obj/Debug/net10.0/Abc.Soft.Web.Client.pdb
 /Users/maksimp/Documents/Blasor/Soft/Todo/Client/obj/Debug/net10.0/ref/Abc.Soft.Web.Client.dll
-/Users/maksimp/Documents/Blasor/Soft/Todo/Client/bin/Debug/net10.0/wwwroot/_framework/Abc.Soft.Web.Client.njnn1on6hd.wasm
-/Users/maksimp/Documents/Blasor/Soft/Todo/Client/bin/Debug/net10.0/wwwroot/_framework/Abc.Soft.Web.Client.gpzd2egflz.pdb
-/Users/maksimp/Documents/Blasor/Soft/Todo/Client/bin/Debug/net10.0/wwwroot/_framework/Abc.Soft.Web.Client.njnn1on6hd.wasm.gz
-/Users/maksimp/Documents/Blasor/Soft/Todo/Client/bin/Debug/net10.0/wwwroot/_framework/Abc.Soft.Web.Client.gpzd2egflz.pdb.gz
-/Users/maksimp/Documents/Blasor/Soft/Todo/Client/obj/Debug/net10.0/compressed/zobyftkwxq-{0}-njnn1on6hd-njnn1on6hd.gz
-/Users/maksimp/Documents/Blasor/Soft/Todo/Client/obj/Debug/net10.0/compressed/9x1rw4usig-{0}-gpzd2egflz-gpzd2egflz.gz
-/Users/maksimp/Documents/Blasor/Soft/Todo/Client/obj/Debug/net10.0/compressed/ci2rkmt6e1-{0}-uexyjvjn2k-uexyjvjn2k.gz
+/Users/maksimp/Documents/Blasor/Soft/Todo/Client/bin/Debug/net10.0/wwwroot/_framework/Abc.Soft.Web.Client.8vu1krud0o.wasm
+/Users/maksimp/Documents/Blasor/Soft/Todo/Client/bin/Debug/net10.0/wwwroot/_framework/Abc.Soft.Web.Client.96pugaoiaq.pdb
+/Users/maksimp/Documents/Blasor/Soft/Todo/Client/bin/Debug/net10.0/wwwroot/_framework/Abc.Soft.Web.Client.8vu1krud0o.wasm.gz
+/Users/maksimp/Documents/Blasor/Soft/Todo/Client/bin/Debug/net10.0/wwwroot/_framework/Abc.Soft.Web.Client.96pugaoiaq.pdb.gz
+/Users/maksimp/Documents/Blasor/Soft/Todo/Client/obj/Debug/net10.0/compressed/zobyftkwxq-{0}-8vu1krud0o-8vu1krud0o.gz
+/Users/maksimp/Documents/Blasor/Soft/Todo/Client/obj/Debug/net10.0/compressed/9x1rw4usig-{0}-96pugaoiaq-96pugaoiaq.gz
+/Users/maksimp/Documents/Blasor/Soft/Todo/Client/obj/Debug/net10.0/compressed/ci2rkmt6e1-{0}-fgbrzygitm-fgbrzygitm.gz

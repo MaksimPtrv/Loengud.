@@ -1,0 +1,24 @@
+@using Microsoft.AspNetCore.Components.Authorization
+@inject NavigationManager NavigationManager
+
+<MudNavMenu Dense="false">
+    <MudNavLink Href="/" Match="NavLinkMatch.All" Icon="@Icons.Material.Filled.Home">Home</MudNavLink>
+    <MudNavLink Href="movies" Icon="@Icons.Material.Filled.Movie">Movies</MudNavLink>
+    <MudNavLink Href="countries" Icon="@Icons.Material.Filled.Flag">Countries</MudNavLink>
+    <MudNavLink Href="currencies" Icon="@Icons.Material.Filled.AttachMoney">Currencies</MudNavLink>
+    <MudNavLink Href="countryCurrencies" Icon="@Icons.Material.Filled.List">Currency Use</MudNavLink>
+    <MudNavLink Href="money" Icon="@Icons.Material.Filled.AccountBalanceWallet">Money</MudNavLink>
+    <MudNavLink Href="counter" Icon="@Icons.Material.Filled.Add">Counter</MudNavLink>
+    <MudNavLink Href="weather" Icon="@Icons.Material.Filled.Cloud">Weather</MudNavLink>
+
+    <AuthorizeView>
+        <Authorized>
+            <MudNavLink Href="Account/Manage" Icon="@Icons.Material.Filled.Person">@context.User.Identity?.Name</MudNavLink>
+            <MudNavLink Href="Account/Logout" Icon="@Icons.Material.Filled.ExitToApp">Logout</MudNavLink>
+        </Authorized>
+        <NotAuthorized>
+            <MudNavLink Href="Account/Register" Icon="@Icons.Material.Filled.PersonAdd">Register</MudNavLink>
+            <MudNavLink Href="Account/Login" Icon="@Icons.Material.Filled.Login">Login</MudNavLink>
+        </NotAuthorized>
+    </AuthorizeView>
+</MudNavMenu>

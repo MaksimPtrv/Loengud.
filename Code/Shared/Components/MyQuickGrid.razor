@@ -11,7 +11,7 @@
 <QuickGrid Class="table myTable" Items="@Entities">
         @foreach (var p in typeof(TEntity).GetProperties()) {
             @if (!MyGridAids.Show(p)) continue;
-            <TemplateColumn>
+            <Microsoft.AspNetCore.Components.QuickGrid.TemplateColumn>
                 <HeaderTemplate>
                     @if (ShowHeader && ShowMyHeader) {
                         <MyTableHeader Query="@Query" BasePath="@BasePath" PropertyInfo="@p" />
@@ -20,12 +20,12 @@
                 <ChildContent Context="y">
                     @(MyGridAids.Value(p, y))
                 </ChildContent>
-            </TemplateColumn>
+            </Microsoft.AspNetCore.Components.QuickGrid.TemplateColumn>
         }
         @if (ShowButtons) {
-            <TemplateColumn Context="y">
+            <Microsoft.AspNetCore.Components.QuickGrid.TemplateColumn Context="y">
                 <MyTableRowButtons TEntity="TEntity" Item="@y" BasePath="@BasePath" Query="@Query" />
-            </TemplateColumn>
+            </Microsoft.AspNetCore.Components.QuickGrid.TemplateColumn>
         }
         </QuickGrid>
 

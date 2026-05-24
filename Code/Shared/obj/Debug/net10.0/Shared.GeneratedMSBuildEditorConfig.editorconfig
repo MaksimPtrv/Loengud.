@@ -1,4 +1,7 @@
 is_global = true
+build_property.MudDebugAnalyzer = 
+build_property.MudAllowedAttributePattern = 
+build_property.MudAllowedAttributeList = 
 build_property.TargetFramework = net10.0
 build_property.TargetFrameworkIdentifier = .NETCoreApp
 build_property.TargetFrameworkVersion = v10.0
@@ -60,6 +63,14 @@ build_metadata.AdditionalFiles.CssScope =
 
 [/Users/maksimp/Documents/Blasor/Code/Shared/Components/MyTableRowButtons.razor]
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50cy9NeVRhYmxlUm93QnV0dG9ucy5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/maksimp/Documents/Blasor/Code/Shared/Components/SharedMainLayout.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50cy9TaGFyZWRNYWluTGF5b3V0LnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/maksimp/Documents/Blasor/Code/Shared/Components/SharedNavMenu.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50cy9TaGFyZWROYXZNZW51LnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
 [/Users/maksimp/Documents/Blasor/Code/Shared/Pages/Auth.razor]
